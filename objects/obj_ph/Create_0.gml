@@ -1,0 +1,30 @@
+/// @desc Initilize Variables for Panda Hero
+
+hsp = 0;
+vsp = 0;
+initjumpvelocity = -12.8;
+jumpheight = 128;
+minjumpheight = 32;
+grv = -0.64;
+walksp = 6;
+leftkeydown = false;
+rightkeydown = false;
+lastkeydown = "";
+termvelocity = sqrt(sqr(initjumpvelocity) + 2*grv*(jumpheight - minjumpheight));
+attacking = false;
+invincible = true;
+atk_exp = 0;
+def_exp = 0;
+spd_exp = 0;
+spl_exp = 0;
+exp_max = 10;
+health_bar_width = 252;
+health_bar_height = 16;
+healthbar_x = 96;
+healthbar_y = 48;
+level = 0;
+atk_lv = 0;
+def_lv = 0;
+spd_lv = 0;
+spl_lv = 0;
+money = 0;
