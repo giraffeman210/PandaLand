@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "5a49c042-6729-4184-b495-296906725462",
+            "Value": {
+                "id": "6b6fb3c1-f247-4edd-a2e6-e9ed3b27d06c",
+                "resourcePath": "sounds\\she_showers_with_pantene\\she_showers_with_pantene.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "5ae2fed8-b3c2-406e-8d30-f47f500fbba9",
             "Value": {
                 "id": "1387cf1d-f660-4cb8-976f-60acfbdd7c2b",
@@ -1484,6 +1492,14 @@
                 "id": "9cacf697-f13e-442c-be04-be3a0b1f5277",
                 "resourcePath": "sprites\\spr_phantomattack0\\spr_phantomattack0.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd7dbc6e-397b-4e9b-85d0-5d0fdd0538de",
+            "Value": {
+                "id": "75f7664a-7447-4409-99e5-cd5f01b231d8",
+                "resourcePath": "sounds\\Old_Man_Meany_Head\\Old_Man_Meany_Head.yy",
+                "resourceType": "GMSound"
             }
         },
         {

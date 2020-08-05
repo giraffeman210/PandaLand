@@ -17,7 +17,7 @@ repeat(str_len){
 	substr = string_copy(str, 1, count);
 	if(string_char_at(str, count) == " ") last_space = count;
 	if(string_width(substr) > max_width){
-		//show_debug_message(string_width(substr));
+		str = string_delete(str, last_space, 1)
 		str = string_insert("\n", str, last_space);
 		count += 1;
 	}
