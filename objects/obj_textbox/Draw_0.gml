@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+
 draw_set_font(fnt_text);
 //draw textbox
 draw_rectangle(x-2, y-2, x+boxWidth+2, y+boxHeight+2, false);
