@@ -298,7 +298,7 @@
             "Key": "2a9d4654-e9b6-4794-ab74-8b2119234bcf",
             "Value": {
                 "id": "e1b9792a-597a-4f96-9eaa-b21aacde4aba",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\room_title\\room_title.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -516,6 +516,14 @@
                 "id": "4a2b5e5d-a619-4bc1-b40c-c8f7bfb4d74e",
                 "resourcePath": "sprites\\spr_niceday\\spr_niceday.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54cdc38f-c9d4-4954-90bf-d9c010571651",
+            "Value": {
+                "id": "39d3ac9c-9046-4b8f-b879-9871b318650c",
+                "resourcePath": "objects\\obj_collect\\obj_collect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1410,7 +1418,7 @@
             "Key": "dfcd1b82-88be-4906-9465-ced230b10593",
             "Value": {
                 "id": "f4236ec6-a733-4dad-b0ba-fb3ee90ef9b2",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\room_pandafalls\\room_pandafalls.yy",
                 "resourceType": "GMRoom"
             }
         },

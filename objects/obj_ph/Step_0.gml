@@ -122,11 +122,6 @@ if (place_meeting(x,y+vsp,obj_basewall))
 
 y = y + vsp;
 
-//Text
-if(mouse_check_button_pressed(mb_left)) {
-	instance_create_layer(mouse_x, mouse_y, "layer_text", obj_textbox);
-}
-
 //statbar
 if(atk_exp >= exp_max) {
 	atk_exp = 0;
