@@ -2,8 +2,8 @@
 
 hsp = 0;
 vsp = 0;
-initjumpvelocity = -12.8;
-jumpheight = 128;
+initjumpvelocity = -14.3;
+jumpheight = 160;
 minjumpheight = 32;
 grv = -0.64;
 walksp = 6;
