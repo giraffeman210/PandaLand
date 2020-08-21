@@ -73,6 +73,7 @@ if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {
 	sprite_index = spr_phjump;
 	vsp = initjumpvelocity;
+	
 }
 if (keyboard_check_released(vk_space))
 {
@@ -105,7 +106,7 @@ else {
 	image_speed = 1;
 }
 
-x = x + hsp;
+
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_basewall))
@@ -120,6 +121,7 @@ if (place_meeting(x,y+vsp,obj_basewall))
 		
 }
 
+x = x + hsp;
 y = y + vsp;
 
 //statbar
