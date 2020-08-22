@@ -1,8 +1,8 @@
 /// @desc Main Step Event
 
 //Attack
-//We want to make sure panda is touching the ground and not attacking already
-if (keyboard_check_pressed(vk_enter) && place_meeting(x,y+1,obj_basewall) && !attacking) {	
+//We want to make sure panda is not attacking already
+if (keyboard_check_pressed(vk_enter) && !attacking) {	
 	staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
 	if (image_xscale == -1) {
 		staff.image_xscale = -1	
@@ -50,19 +50,28 @@ if (keyboard_check_released(ord("D")))
 		lastkeydown = "";
 	}
 }
-if attacking exit;
+
 if (lastkeydown == "left")
 {
 	//Flip sprite to match direction
 	image_xscale = -1;
+	if (attacking){
+		staff.x = x - 64;
+		staff.image_xscale = -1;	
+	}
 	hsp = -walksp;	
 }
 if (lastkeydown == "right")
 {
 	//Flip sprite to match direction
 	image_xscale = 1;
+	if (attacking){
+		staff.x = x + 64;
+		staff.image_xscale = 1;	
+	}
 	hsp = walksp;
 }
+if attacking and place_meeting(x,y+1,obj_basewall) exit;
 if (lastkeydown == "")
 {
 	hsp = 0;
@@ -115,12 +124,16 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	{
 			y = y + sign(vsp);
 	}
-	if (sign(vsp) != -1) {
+	if (sign(vsp) != -1 and not attacking) {
 		sprite_index = spr_ph;
 	}
 	vsp = 0;
 }
 
+if (attacking) {
+	staff.x = staff.x + hsp;
+	staff.y = staff.y + vsp;
+}
 x = x + hsp;
 y = y + vsp;
 
