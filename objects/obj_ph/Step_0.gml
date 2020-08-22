@@ -9,7 +9,7 @@ if (keyboard_check_pressed(vk_enter) && !attacking) {
 	}
 	sprite_index = spr_phattack;
 	attacking = true;
-	alarm[0] = room_speed * .3;
+	alarm[0] = room_speed * .2;
 }
 
 
