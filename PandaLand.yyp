@@ -45,7 +45,6 @@
     {"id":{"name":"spr_enemybig0","path":"sprites/spr_enemybig0/spr_enemybig0.yy",},"order":42,},
     {"id":{"name":"spr_enemybig","path":"sprites/spr_enemybig/spr_enemybig.yy",},"order":43,},
     {"id":{"name":"spr_enemybigattack0","path":"sprites/spr_enemybigattack0/spr_enemybigattack0.yy",},"order":44,},
-    {"id":{"name":"panda_falls","path":"sounds/panda_falls/panda_falls.yy",},"order":2,},
     {"id":{"name":"spr_enemybigattack","path":"sprites/spr_enemybigattack/spr_enemybigattack.yy",},"order":45,},
     {"id":{"name":"spr_enemyflying0","path":"sprites/spr_enemyflying0/spr_enemyflying0.yy",},"order":46,},
     {"id":{"name":"spr_enemyflying","path":"sprites/spr_enemyflying/spr_enemyflying.yy",},"order":47,},
