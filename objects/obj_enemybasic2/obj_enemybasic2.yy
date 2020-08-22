@@ -7,10 +7,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_enemy",
-    "path": "objects/obj_enemy/obj_enemy.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_enemybasic2","path":"objects/obj_enemybasic2/obj_enemybasic2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
