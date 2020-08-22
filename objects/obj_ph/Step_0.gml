@@ -115,10 +115,10 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	{
 			y = y + sign(vsp);
 	}
-
+	if (sign(vsp) != -1) {
+		sprite_index = spr_ph;
+	}
 	vsp = 0;
-	sprite_index = spr_ph;
-		
 }
 
 x = x + hsp;
