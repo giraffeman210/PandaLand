@@ -1,8 +1,5 @@
 /// @description 
-if ((x - obj_ph.x) < 500) {
-	aggro = true;
-	sprite_index = spr_enemybasicattack;
-}
+event_inherited();
 
 if (place_meeting(x+hsp,y,obj_wall))
 {
@@ -15,6 +12,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 }
 
 if (aggro) {
+	sprite_index = spr_enemybasicattack;
 	x = x + hsp;
 }
 
