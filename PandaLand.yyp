@@ -86,6 +86,7 @@
     {"id":{"name":"spr_waterfalltop","path":"sprites/spr_waterfalltop/spr_waterfalltop.yy",},"order":80,},
     {"id":{"name":"spr_lantern","path":"sprites/spr_lantern/spr_lantern.yy",},"order":81,},
     {"id":{"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},"order":82,},
+    {"id":{"name":"obj_basefloat","path":"objects/obj_basefloat/obj_basefloat.yy",},"order":51,},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},"order":83,},
     {"id":{"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},"order":84,},
     {"id":{"name":"spr_cloud1","path":"sprites/spr_cloud1/spr_cloud1.yy",},"order":85,},

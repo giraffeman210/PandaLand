@@ -5,7 +5,7 @@
 if (keyboard_check_pressed(vk_enter) && !attacking) {	
 	staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
 	if (image_xscale == -1) {
-		staff.image_xscale = -1	
+		staff.image_xscale = -1;	
 	}
 	sprite_index = spr_phattack;
 	attacking = true;

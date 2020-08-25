@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_blocktest",
-    "path": "objects/obj_blocktest/obj_blocktest.yy",
+    "name": "obj_basefloat",
+    "path": "objects/obj_basefloat/obj_basefloat.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
