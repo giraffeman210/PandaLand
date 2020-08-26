@@ -77,6 +77,13 @@ if (lastkeydown == "")
 	hsp = 0;
 }
 
+floatblock = instance_place(x,y+1,obj_platformfloat);
+if floatblock != noone {
+	x = x + floatblock.xspeed
+	y = y + floatblock.yspeed
+}
+
+
 //Jump
 if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {

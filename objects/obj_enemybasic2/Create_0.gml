@@ -4,3 +4,5 @@ hp = 3;
 aggro = false;
 starthrown = false;
 wait = false;
+grv = -0.64;
+vsp = 0;
