@@ -77,11 +77,7 @@ if (lastkeydown == "")
 	hsp = 0;
 }
 
-floatblock = instance_place(x,y+1,obj_platformfloat);
-if floatblock != noone {
-	x = x + floatblock.xspeed
-	y = y + floatblock.yspeed
-}
+
 
 
 //Jump
@@ -141,6 +137,7 @@ if (attacking) {
 	staff.x = staff.x + hsp;
 	staff.y = staff.y + vsp;
 }
+
 x = x + hsp;
 y = y + vsp;
 

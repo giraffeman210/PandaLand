@@ -3,6 +3,7 @@
 hp = 3;
 aggro = false;
 starthrown = false;
+starready = true;
 wait = false;
 grv = -0.64;
 vsp = 0;

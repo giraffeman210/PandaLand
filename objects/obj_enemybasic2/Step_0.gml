@@ -2,10 +2,12 @@
 // You can write your code in this editor
 event_inherited();
 if not wait {
-	if (aggro and not starthrown) {
+	if (aggro and starready) {
 			sprite_index = spr_enemybasic2throw;
+			image_index = 0;
+			starready = false;
 	}
-	if (sprite_index == spr_enemybasic2throw and image_index >= 1 and not starthrown) {
+	if (not starready and image_index >= 1 and not starthrown) {
 		ninjastar = instance_create_layer(x - (sign(image_xscale) * 40), y, "Instances", obj_ninjastar);
 		starthrown = true;
 		alarm[0] = 3 * room_speed;
@@ -16,6 +18,7 @@ if starthrown {
 	if (distance_to_object(ninjastar) > 448) {
 		instance_destroy(ninjastar);
 		starthrown = false;
+		starready = true;
 	}
 }
 if x > obj_ph.x {
