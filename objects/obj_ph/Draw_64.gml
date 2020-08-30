@@ -89,3 +89,9 @@ if(def_lv >= 5) {
 		draw_sprite(spr_extrahitempty, 0, 654, 16);
 	}
 }	
+
+if(spl_lv >= 1) {
+	draw_set_font(fnt_textlg);
+	draw_text(735, 148, "SPL:");
+	draw_text(820, 148, (spl_count));
+}

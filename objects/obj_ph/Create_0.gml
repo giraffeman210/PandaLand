@@ -28,4 +28,6 @@ def_lv = 0;
 spd_lv = 0;
 spl_lv = 0;
 money = 0;
-hp = 1;
+hpmax = (1 + def_lv);
+hp = hpmax;
+spl_count = (spl_lv*20)
