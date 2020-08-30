@@ -28,3 +28,4 @@ def_lv = 0;
 spd_lv = 0;
 spl_lv = 0;
 money = 0;
+hp = 1;

@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 15,
-  "bbox_top": 0,
-  "bbox_bottom": 15,
+  "bbox_left": 1,
+  "bbox_right": 14,
+  "bbox_top": 1,
+  "bbox_bottom": 14,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -21,21 +21,21 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"52405074-7a90-4e38-9f2c-f909d67079de","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"52405074-7a90-4e38-9f2c-f909d67079de","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":{"name":"b1a02756-2497-48db-b2af-0f8fd98db5db","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_ninjastar","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"52405074-7a90-4e38-9f2c-f909d67079de","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"8d696486-f822-4775-a482-f1b4d99fddc5","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"8d696486-f822-4775-a482-f1b4d99fddc5","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":{"name":"b1a02756-2497-48db-b2af-0f8fd98db5db","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ninjastar","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"8d696486-f822-4775-a482-f1b4d99fddc5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"094f7a23-3490-4681-b35e-ef9938a0b428","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"094f7a23-3490-4681-b35e-ef9938a0b428","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"LayerId":{"name":"b1a02756-2497-48db-b2af-0f8fd98db5db","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ninjastar","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","name":"094f7a23-3490-4681-b35e-ef9938a0b428","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_ninjastar","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 2.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -45,7 +45,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"87539655-2486-4dac-83de-56c9d249aa90","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"52405074-7a90-4e38-9f2c-f909d67079de","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a235baea-a95f-4ae3-88ce-44807903c445","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d696486-f822-4775-a482-f1b4d99fddc5","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3c0edd1b-e954-4fbc-bdaa-1c7d79d255ff","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"094f7a23-3490-4681-b35e-ef9938a0b428","path":"sprites/spr_ninjastar/spr_ninjastar.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,

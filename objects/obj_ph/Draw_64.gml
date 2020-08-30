@@ -39,3 +39,53 @@ draw_sprite(spr_statbar,0, healthbar_x, (healthbar_y + 96));
 
 draw_sprite(spr_itembox, 0, 736, 16);
 draw_sprite(spr_wpbasic, 0, 736, 16);
+
+if(def_lv >= 1) {
+	if(hp >= 2) {
+		draw_sprite(spr_extrahit, 0, 368, 16); 
+	}
+	else
+	{ 
+		draw_sprite(spr_extrahitempty, 0, 368, 16);
+	}
+}
+
+if(def_lv >= 2) {
+	if(hp >= 3) {
+		draw_sprite(spr_extrahit, 0, 438, 16); 
+	}
+	else
+	{ 
+		draw_sprite(spr_extrahitempty, 0, 438, 16);
+	}
+}
+
+if(def_lv >= 3) {
+	if(hp >= 4) {
+		draw_sprite(spr_extrahit, 0, 510, 16); 
+	}
+	else
+	{ 
+		draw_sprite(spr_extrahitempty, 0, 510, 16);
+	}
+}
+
+if(def_lv >= 4) {
+	if(hp >= 5) {
+		draw_sprite(spr_extrahit, 0, 582, 16); 
+	}
+	else
+	{ 
+		draw_sprite(spr_extrahitempty, 0, 582, 16);
+	}
+}	
+
+if(def_lv >= 5) {
+	if(hp >= 6) {
+		draw_sprite(spr_extrahit, 0, 654, 16); 
+	}
+	else
+	{ 
+		draw_sprite(spr_extrahitempty, 0, 654, 16);
+	}
+}	
