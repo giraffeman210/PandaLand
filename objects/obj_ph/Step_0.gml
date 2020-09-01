@@ -146,6 +146,7 @@ if(atk_exp >= exp_max) {
 	atk_exp = 0;
 	level += 1;
 	atk_lv += 1;
+	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 }
 if(def_exp >= exp_max) {
 	def_exp = 0;
@@ -153,15 +154,19 @@ if(def_exp >= exp_max) {
 	def_lv += 1;
 	hpmax += 1;
 	hp += 1;
+	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 }
 if(spd_exp >= exp_max) {
 	spd_exp = 0;
 	level += 1;
 	spd_lv += 1;
+	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 }
 if(spl_exp >= exp_max) {
 	spl_exp = 0;
 	level += 1;
 	spl_lv += 1;
 	spl_count += 20;
+	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 }
+

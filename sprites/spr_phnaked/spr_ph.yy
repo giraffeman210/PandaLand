@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_ph","path":"sprites/spr_ph/spr_ph.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_ph",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
