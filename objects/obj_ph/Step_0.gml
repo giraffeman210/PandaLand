@@ -9,6 +9,7 @@ if (keyboard_check_pressed(vk_enter) && !attacking) {
 	}
 	sprite_index = spr_phattack;
 	attacking = true;
+	audio_play_sound(attack, 10, false)
 	alarm[0] = room_speed * .2;
 }
 
@@ -85,6 +86,7 @@ if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {
 	sprite_index = spr_phjump;
 	vsp = initjumpvelocity;
+	audio_play_sound(jump, 10, false);
 	
 }
 if (keyboard_check_released(vk_space))
@@ -147,6 +149,7 @@ if(atk_exp >= exp_max) {
 	level += 1;
 	atk_lv += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
+	audio_play_sound(level_up, 10, false);
 }
 if(def_exp >= exp_max) {
 	def_exp = 0;
@@ -155,12 +158,14 @@ if(def_exp >= exp_max) {
 	hpmax += 1;
 	hp += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
+	audio_play_sound(level_up, 10, false);
 }
 if(spd_exp >= exp_max) {
 	spd_exp = 0;
 	level += 1;
 	spd_lv += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
+	audio_play_sound(level_up, 10, false);
 }
 if(spl_exp >= exp_max) {
 	spl_exp = 0;
@@ -168,5 +173,6 @@ if(spl_exp >= exp_max) {
 	spl_lv += 1;
 	spl_count += 20;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
+	audio_play_sound(level_up, 10, false);
 }
 

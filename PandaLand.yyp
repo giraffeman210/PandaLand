@@ -91,6 +91,7 @@
     {"id":{"name":"spr_tophalf","path":"sprites/spr_tophalf/spr_tophalf.yy",},"order":72,},
     {"id":{"name":"spr_bottomhalf","path":"sprites/spr_bottomhalf/spr_bottomhalf.yy",},"order":73,},
     {"id":{"name":"spr_pfblockstop","path":"sprites/spr_pfblockstop/spr_pfblockstop.yy",},"order":74,},
+    {"id":{"name":"obj_enemydead","path":"objects/obj_enemydead/obj_enemydead.yy",},"order":51,},
     {"id":{"name":"spr_pfblockstop1","path":"sprites/spr_pfblockstop1/spr_pfblockstop1.yy",},"order":75,},
     {"id":{"name":"spr_pfblockstop2","path":"sprites/spr_pfblockstop2/spr_pfblockstop2.yy",},"order":76,},
     {"id":{"name":"spr_backgroundfalls1","path":"sprites/spr_backgroundfalls1/spr_backgroundfalls1.yy",},"order":77,},

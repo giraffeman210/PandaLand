@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "level_up.wav",
-  "duration": 2.399558,
+  "duration": 2.399542,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

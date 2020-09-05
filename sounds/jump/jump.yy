@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.7,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "jump.wav",
-  "duration": 2.399558,
+  "duration": 2.399542,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

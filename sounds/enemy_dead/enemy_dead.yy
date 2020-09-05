@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "enemy_dead.wav",
-  "duration": 4.001735,
+  "duration": 4.001729,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 1.0,
+  "volume": 0.6,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "eat_fruit.wav",
-  "duration": 3.696973,
+  "duration": 3.696958,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
