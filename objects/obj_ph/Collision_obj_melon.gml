@@ -6,3 +6,4 @@ audio_play_sound(eat_fruit, 10, false);
 
 obj_collect.collect = 5
 
+happy = true;

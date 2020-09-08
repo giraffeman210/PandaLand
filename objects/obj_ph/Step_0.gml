@@ -84,7 +84,12 @@ if (lastkeydown == "")
 //Jump
 if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {
-	sprite_index = spr_phjump;
+	if (happy = false) {
+		sprite_index = spr_phjump;
+	}
+	if (happy = true) {
+		sprite_index = spr_phjumphappy;
+	}
 	vsp = initjumpvelocity;
 	audio_play_sound(jump, 10, false);
 	
@@ -130,7 +135,16 @@ if (place_meeting(x,y+vsp,obj_basewall))
 			y = y + sign(vsp);
 	}
 	if (sign(vsp) != -1 and not attacking) {
-		sprite_index = spr_ph;
+		if (happy = false) {
+			sprite_index = spr_ph;
+			}
+		if (happy = true) {
+			if (happyalarm = false) {
+				sprite_index = spr_phhappy;
+				alarm_set(1, 60);
+				happyalarm = true;
+			}
+			}
 	}
 	vsp = 0;
 }
