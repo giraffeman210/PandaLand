@@ -3,4 +3,5 @@
 if (obj_ph.invincible == false)
 {
 	room_restart()
+	audio_stop_all()
 }

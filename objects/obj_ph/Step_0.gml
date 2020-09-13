@@ -158,33 +158,33 @@ x = x + hsp;
 y = y + vsp;
 
 //statbar
-if(atk_exp >= exp_max) {
-	atk_exp = 0;
-	level += 1;
-	atk_lv += 1;
+if(global.atk_exp >= exp_max) {
+	global.atk_exp = 0;
+	global.level += 1;
+	global.atk_lv += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);
 }
-if(def_exp >= exp_max) {
-	def_exp = 0;
-	level += 1;
-	def_lv += 1;
+if(global.def_exp >= exp_max) {
+	global.def_exp = 0;
+	global.level += 1;
+	global.def_lv += 1;
 	hpmax += 1;
 	hp += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);
 }
-if(spd_exp >= exp_max) {
-	spd_exp = 0;
-	level += 1;
-	spd_lv += 1;
+if(global.spd_exp >= exp_max) {
+	global.spd_exp = 0;
+	global.level += 1;
+	global.spd_lv += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);
 }
-if(spl_exp >= exp_max) {
-	spl_exp = 0;
-	level += 1;
-	spl_lv += 1;
+if(global.spl_exp >= exp_max) {
+	global.spl_exp = 0;
+	global.level += 1;
+	global.spl_lv += 1;
 	spl_count += 20;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);

@@ -21,9 +21,12 @@ if starthrown {
 		starready = true;
 	}
 }
-if x > obj_ph.x {
+if (instance_exists(obj_ph)) {
+	if x > obj_ph.x {
 	image_xscale = 1		
 }
 if x < obj_ph.x {
-	image_xscale = -1		
+	image_xscale = -1	
+}
+	
 }
