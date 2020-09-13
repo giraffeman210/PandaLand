@@ -7,3 +7,4 @@ starready = true;
 wait = false;
 grv = -0.64;
 vsp = 0;
+alarm_set(1,30)

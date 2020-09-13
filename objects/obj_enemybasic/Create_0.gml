@@ -4,3 +4,4 @@ vsp = 0;
 grv = -0.64;
 aggro = false;
 hp = 3;
+alarm_set(1,30);

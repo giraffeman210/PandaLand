@@ -18,3 +18,10 @@ if (place_meeting(x,y+vsp,obj_basewall))
 }
 
 y = y + vsp;
+
+//atk level up
+if (global.levelup = true) {
+	if (hp >= 1) {
+		hp = (hp - global.atk_lv);
+	}
+}

@@ -16,5 +16,6 @@ if (aggro) {
 	x = x + hsp;
 }
 
-
 //Horizontal Collision
+
+

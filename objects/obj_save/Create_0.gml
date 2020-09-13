@@ -11,3 +11,4 @@ global.spd_lv = 0;
 global.spl_lv = 0;
 global.spawnpointx = 96;
 global.spawnpointy = 480;
+global.levelup = false;

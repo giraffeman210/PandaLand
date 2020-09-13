@@ -162,6 +162,7 @@ if(global.atk_exp >= exp_max) {
 	global.atk_exp = 0;
 	global.level += 1;
 	global.atk_lv += 1;
+	global.levelup = true;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);
 }
