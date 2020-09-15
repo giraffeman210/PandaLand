@@ -25,3 +25,4 @@ spl_count = (global.spl_lv*20);
 happy = false;
 happyalarm = false;
 stillanimation = 0;
+hp = (1 + global.def_lv);

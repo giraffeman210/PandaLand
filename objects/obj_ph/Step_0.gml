@@ -191,3 +191,8 @@ if(global.spl_exp >= exp_max) {
 	audio_play_sound(level_up, 10, false);
 }
 
+//death
+if(hp <= 0) {
+	audio_stop_all();
+	room_restart();
+}
