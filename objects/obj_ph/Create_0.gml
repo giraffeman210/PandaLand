@@ -26,3 +26,8 @@ happy = false;
 happyalarm = false;
 stillanimation = 0;
 hp = (1 + global.def_lv);
+
+//Create Sage Ghost
+if (room == room_pandafalls) {
+	instance_create_layer((obj_ph.x - 64), (obj_ph.y - 32), "layer_player", obj_sage);
+}
