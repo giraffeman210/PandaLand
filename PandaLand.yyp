@@ -232,10 +232,10 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"room_title","path":"rooms/room_title/room_title.yy",},
-    {"name":"room_pandafalls","path":"rooms/room_pandafalls/room_pandafalls.yy",},
-    {"name":"room_intro","path":"rooms/room_intro/room_intro.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room_title","path":"rooms/room_title/room_title.yy",},},
+    {"roomId":{"name":"room_pandafalls","path":"rooms/room_pandafalls/room_pandafalls.yy",},},
+    {"roomId":{"name":"room_intro","path":"rooms/room_intro/room_intro.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -257,13 +257,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.0.529",
+    "IDEVersion": "2.3.1.536",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "PandaLand",
   "tags": [],
   "resourceType": "GMProject",
