@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_pfblockstop1","path":"sprites/spr_pfblockstop1/spr_pfblockstop1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_pfblockstop1",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
