@@ -1,3 +1,3 @@
 /// @description start game
 
-room_goto(room_pandaforest)
+room_goto(room_pandacaves)
