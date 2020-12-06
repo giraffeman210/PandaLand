@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_backgroundfalls1","path":"sprites/spr_backgroundfalls1/spr_backgroundfalls1.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_backgroundfalls1",
     "tags": [],
     "resourceType": "GMSequence",
   },

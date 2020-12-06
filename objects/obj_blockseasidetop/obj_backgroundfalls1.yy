@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_backgroundfalls1",
+    "path": "sprites/spr_backgroundfalls1/spr_backgroundfalls1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -8,7 +11,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 1,
+  "physicsGroup": 0,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -21,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "PandaLand",
-    "path": "PandaLand.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object82",
+  "name": "obj_backgroundfalls1",
   "tags": [],
   "resourceType": "GMObject",
 }
