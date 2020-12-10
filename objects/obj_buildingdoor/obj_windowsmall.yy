@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cityroofedges",
-    "path": "sprites/spr_cityroofedges/spr_cityroofedges.yy",
+    "name": "spr_windowsmall",
+    "path": "sprites/spr_windowsmall/spr_windowsmall.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_roofbackgroundyleft",
+  "name": "obj_windowsmall",
   "tags": [],
   "resourceType": "GMObject",
 }
