@@ -95,7 +95,7 @@ if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 	
 }
 if (keyboard_check_released(vk_space))
-{
+{	
 	//Terminate jump early if necessary
 	if (vsp < -termvelocity) {
 		vsp = -termvelocity;	
@@ -124,7 +124,6 @@ if (hsp == 0)
 else {
 	image_speed = 1;
 }
-
 
 
 //Vertical Collision

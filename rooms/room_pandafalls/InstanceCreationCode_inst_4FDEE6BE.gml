@@ -1,3 +1,3 @@
-movespd = 6;
+movespd = 1;
 movedir = "vertical";
 event_user(0);

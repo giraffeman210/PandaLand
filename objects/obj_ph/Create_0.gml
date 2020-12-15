@@ -26,6 +26,7 @@ happy = false;
 happyalarm = false;
 stillanimation = 0;
 hp = (1 + global.def_lv);
+blockedfloat = false;
 
 //Create Sage Ghost
 if (room == room_pandafalls) {
