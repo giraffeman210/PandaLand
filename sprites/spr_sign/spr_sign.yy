@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"93b19b0b-3b00-4fb7-b2ad-704d1c315a64","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "All",
+    "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sign",

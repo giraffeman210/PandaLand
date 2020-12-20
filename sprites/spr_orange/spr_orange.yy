@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c07e9c09-0e4a-4adc-94fb-cee99ec9e499","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "All",
+    "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_orange",

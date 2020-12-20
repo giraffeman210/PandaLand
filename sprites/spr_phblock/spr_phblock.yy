@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5fd44a9d-ef64-440a-be57-6e7fb345df68","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda",
+    "path": "folders/Sprites/Panda.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_phblock",

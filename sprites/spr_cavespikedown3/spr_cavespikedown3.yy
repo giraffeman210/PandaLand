@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"35a6ad4d-8d6c-49b6-b7c4-19447521319e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Caves",
+    "path": "folders/Sprites/Panda Caves.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cavespikedown3",

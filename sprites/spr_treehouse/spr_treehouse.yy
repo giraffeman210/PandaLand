@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7d473507-b8da-4e4f-a78a-01da4c7981b8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Forest",
+    "path": "folders/Sprites/Panda Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_treehouse",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"58ff202b-8e9d-4c9e-8c93-a3a7473abb72","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "All",
+    "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bush",

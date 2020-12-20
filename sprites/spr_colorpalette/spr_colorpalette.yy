@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1a49979f-f5eb-4056-8a3e-e2d6d713c59f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "All",
+    "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_colorpalette",

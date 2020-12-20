@@ -147,8 +147,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7008d899-b5e2-4ed7-b3b8-22b34cb87f3c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "All",
+    "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cloud",

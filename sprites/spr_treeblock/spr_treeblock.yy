@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5380d0b4-5a1e-49b5-a254-1f1542607170","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Forest",
+    "path": "folders/Sprites/Panda Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_treeblock",

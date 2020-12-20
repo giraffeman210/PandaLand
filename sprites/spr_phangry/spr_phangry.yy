@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9e0cdf9f-a41d-4ec8-80f2-33ab42758c1b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda",
+    "path": "folders/Sprites/Panda.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_phangry",

@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"89e98bf9-9d8a-496e-b299-fc0eed7290c1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Forest",
+    "path": "folders/Sprites/Panda Forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_treetop",

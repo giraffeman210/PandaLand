@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6916efc8-ec4d-4b37-a655-3a14860f3ccb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda City",
+    "path": "folders/Sprites/Panda City.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cityroofedges",
