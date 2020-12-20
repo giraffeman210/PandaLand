@@ -1,5 +1,5 @@
 /// @description not moving animations
-switch(irandom_range(1,3))
+switch(irandom_range(1,4))
 {
 	case 1: sprite_index = spr_phconfused; break;
 	case 2: sprite_index = spr_sleeping; break;
