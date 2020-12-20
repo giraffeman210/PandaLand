@@ -1,5 +1,13 @@
 /// @desc Main Step Event
 
+
+if(!normalsprite){
+	if keyboard_check_pressed(vk_anykey){
+		normalsprite = true;
+		sprite_index = spr_ph;
+	}	
+}
+
 //Attack
 //We want to make sure panda is not attacking already
 if (keyboard_check_pressed(vk_enter) && !attacking) {	
@@ -116,13 +124,14 @@ if (place_meeting(x+hsp,y,obj_basewall))
 }
 
 //Change animation to match movement
-if (hsp == 0)
-{
-	image_speed = 0;
-	image_index = 0;
-}
-else {
-	image_speed = 1;
+if(normalsprite) {
+	if(hsp == 0){
+		image_speed = 0;
+		image_index = 0;
+	}
+	else {
+		image_speed = 1;
+	}
 }
 
 
@@ -133,17 +142,17 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	{
 			y = y + sign(vsp);
 	}
-	if (sign(vsp) != -1 and not attacking) {
-		if (happy = false) {
+	if (sign(vsp) != -1 and !attacking and normalsprite) {
+		if(!happy){
 			sprite_index = spr_ph;
-			}
-		if (happy = true) {
-			if (happyalarm = false) {
+		}
+		if(happy) {
+			if(!happyalarm) {
 				sprite_index = spr_phhappy;
 				alarm_set(1, 60);
 				happyalarm = true;
 			}
-			}
+		}
 	}
 	vsp = 0;
 }
@@ -155,6 +164,12 @@ if (attacking) {
 
 x = x + hsp;
 y = y + vsp;
+
+//show_debug_message(hsp);
+if(hsp != 0 || vsp != 0) {
+	alarm[2] = room_speed * 60;
+}
+
 
 //statbar
 if(global.atk_exp >= exp_max) {
