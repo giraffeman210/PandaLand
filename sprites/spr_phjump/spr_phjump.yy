@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e8611a9f-d546-455d-9c6a-8ffb8b5e8eb3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda",
+    "path": "folders/Sprites/Panda.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_phjump",

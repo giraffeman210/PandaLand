@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"092a82ec-1a56-44ea-9577-0cfb55ac01be","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda",
+    "path": "folders/Sprites/Panda.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_phdead1",

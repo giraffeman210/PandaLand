@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f1ee6592-56e0-4e59-8a32-a7f6bc832ad4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Caves",
+    "path": "folders/Sprites/Panda Caves.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_explosion",

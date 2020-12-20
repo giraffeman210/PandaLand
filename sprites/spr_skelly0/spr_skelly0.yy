@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"22a8cd9a-e33d-4635-982b-c62a857711cb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Fancy Sprites",
+    "path": "folders/Sprites/Fancy Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_skelly0",

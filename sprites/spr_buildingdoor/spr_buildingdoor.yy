@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"be0aea72-dc94-4a60-93b7-30d7f81f1c37","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda City",
+    "path": "folders/Sprites/Panda City.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_buildingdoor",

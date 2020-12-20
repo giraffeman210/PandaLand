@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"afaf275a-fed4-4831-9578-86e3aa885790","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Fancy Sprites",
+    "path": "folders/Sprites/Fancy Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sleeping0",

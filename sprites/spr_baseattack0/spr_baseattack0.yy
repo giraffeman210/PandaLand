@@ -76,8 +76,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ebdeced5-bd80-4939-8b16-b15e05c13784","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Fancy Sprites",
+    "path": "folders/Sprites/Fancy Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_baseattack0",

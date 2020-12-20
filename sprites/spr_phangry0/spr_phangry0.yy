@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7a1c8d7b-b577-4da7-b07d-9535a77f6824","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Fancy Sprites",
+    "path": "folders/Sprites/Fancy Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_phangry0",

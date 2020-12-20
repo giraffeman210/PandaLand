@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55d9ddd9-6ad1-4cc1-81f4-87d28b1c5dc1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Interface",
+    "path": "folders/Sprites/Interface.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_itembox",

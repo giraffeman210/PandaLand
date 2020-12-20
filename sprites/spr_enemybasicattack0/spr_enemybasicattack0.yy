@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f4adc03c-355c-472d-a937-345de5a84ba5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Fancy Sprites",
+    "path": "folders/Sprites/Fancy Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_enemybasicattack0",

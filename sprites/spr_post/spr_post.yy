@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ddcfc130-3207-44f8-8194-404e74c0f890","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Panda Falls",
+    "path": "folders/Sprites/Panda Falls.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_post",
