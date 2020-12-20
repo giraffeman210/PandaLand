@@ -167,7 +167,7 @@ y = y + vsp;
 
 //show_debug_message(hsp);
 if(hsp != 0 || vsp != 0) {
-	alarm[2] = room_speed * 30;
+	alarm[2] = room_speed * 15;
 }
 
 
