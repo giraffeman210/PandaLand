@@ -5,26 +5,18 @@ if lock = false {
 		text = "+$"
 		lock = true; 
 	}
-}
-if lock = false {
 	if collect = 2 {
 		text = "+atk"
 		lock = true; 
 	}
-}
-if lock = false {
 	if collect = 3 {
 		text = "+def"
 		lock = true; 
 	}
-}
-if lock = false {
 	if collect = 4 {
 		text = "+spd"
 		lock = true; 
 	}
-}
-if lock = false {
 	if collect = 5 {
 		text = "+spl"
 		lock = true; 

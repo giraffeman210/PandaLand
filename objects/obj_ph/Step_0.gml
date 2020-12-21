@@ -87,8 +87,6 @@ if (lastkeydown == "")
 }
 
 
-
-
 //Jump
 if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {
@@ -147,8 +145,8 @@ if (place_meeting(x,y+vsp,obj_basewall))
 			sprite_index = spr_ph;
 		}
 		if(happy) {
+			sprite_index = spr_phhappy;
 			if(!happyalarm) {
-				sprite_index = spr_phhappy;
 				alarm_set(1, 60);
 				happyalarm = true;
 			}
