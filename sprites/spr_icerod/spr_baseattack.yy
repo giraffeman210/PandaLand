@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_baseattack","path":"sprites/spr_baseattack/spr_baseattack.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_baseattack",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
