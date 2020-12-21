@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_enemyflying","path":"sprites/spr_enemyflying/spr_enemyflying.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_enemyflying",
     "tags": [],
     "resourceType": "GMSequence",
   },

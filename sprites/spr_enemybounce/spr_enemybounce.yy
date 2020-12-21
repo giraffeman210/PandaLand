@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_enemybounce","path":"sprites/spr_enemybounce/spr_enemybounce.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_enemybounce",
     "tags": [],
     "resourceType": "GMSequence",
   },

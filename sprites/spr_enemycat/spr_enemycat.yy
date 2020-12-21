@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_enemycat","path":"sprites/spr_enemycat/spr_enemycat.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_enemycat",
     "tags": [],
     "resourceType": "GMSequence",
   },

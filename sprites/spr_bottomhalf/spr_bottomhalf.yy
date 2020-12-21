@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_bottomhalf","path":"sprites/spr_bottomhalf/spr_bottomhalf.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_bottomhalf",
     "tags": [],
     "resourceType": "GMSequence",
   },
