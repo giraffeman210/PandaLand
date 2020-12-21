@@ -21,18 +21,18 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 1,
-  "gridY": 1,
+  "gridX": 0,
+  "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b4150315-6dff-43e3-84ef-8d595451ab73","path":"sprites/spr_phjump/spr_phjump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b4150315-6dff-43e3-84ef-8d595451ab73","path":"sprites/spr_phjump/spr_phjump.yy",},"LayerId":{"name":"e8611a9f-d546-455d-9c6a-8ffb8b5e8eb3","path":"sprites/spr_phjump/spr_phjump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_phjump","path":"sprites/spr_phjump/spr_phjump.yy",},"resourceVersion":"1.0","name":"b4150315-6dff-43e3-84ef-8d595451ab73","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"5f28c0a1-0179-4fa0-9cd4-68e2bc77756e","path":"sprites/spr_phattack/spr_phattack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"5f28c0a1-0179-4fa0-9cd4-68e2bc77756e","path":"sprites/spr_phattack/spr_phattack.yy",},"LayerId":{"name":"efac1159-71c4-4961-be68-0a118a653add","path":"sprites/spr_phattack/spr_phattack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_phattack","path":"sprites/spr_phattack/spr_phattack.yy",},"resourceVersion":"1.0","name":"5f28c0a1-0179-4fa0-9cd4-68e2bc77756e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_phjump","path":"sprites/spr_phjump/spr_phjump.yy",},
+    "spriteId": {"name":"spr_phattack","path":"sprites/spr_phattack/spr_phattack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 7.0,
+    "playbackSpeed": 8.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3bb86a69-608b-4c06-92e7-5f456008e79b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b4150315-6dff-43e3-84ef-8d595451ab73","path":"sprites/spr_phjump/spr_phjump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"231a5800-6b44-4c38-a1e7-b0987115904d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5f28c0a1-0179-4fa0-9cd4-68e2bc77756e","path":"sprites/spr_phattack/spr_phattack.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 32,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_phjump","path":"sprites/spr_phjump/spr_phjump.yy",},
+    "parent": {"name":"spr_phattack","path":"sprites/spr_phattack/spr_phattack.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_phjump",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e8611a9f-d546-455d-9c6a-8ffb8b5e8eb3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"efac1159-71c4-4961-be68-0a118a653add","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Panda",
     "path": "folders/Sprites/Panda.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_phjump",
+  "name": "spr_phattack",
   "tags": [],
   "resourceType": "GMSprite",
 }

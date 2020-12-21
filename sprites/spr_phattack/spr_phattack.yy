@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_phattack","path":"sprites/spr_phattack/spr_phattack.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_phattack",
     "tags": [],
     "resourceType": "GMSequence",
   },

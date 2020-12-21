@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_phspecialattack","path":"sprites/spr_phspecialattack/spr_phspecialattack.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_phspecialattack",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_phjump","path":"sprites/spr_phjump/spr_phjump.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_phjump",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
