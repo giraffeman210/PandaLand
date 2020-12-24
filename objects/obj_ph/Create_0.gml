@@ -12,7 +12,7 @@ rightkeydown = false;
 lastkeydown = "";
 termvelocity = sqrt(sqr(initjumpvelocity) + 2*grv*(jumpheight - minjumpheight));
 attacking = false;
-invincible = true;
+invincible = false;
 exp_max = 5;
 health_bar_width = 252;
 health_bar_height = 16;
@@ -26,6 +26,7 @@ happy = false;
 happyalarm = false;
 hp = (1 + global.def_lv);
 normalsprite = true;
+hitsprites = [spr_phhit, spr_phinvicible, spr_phjumpinvincible]
 
 //Create Sage Ghost
 if (room == room_pandafalls) {
