@@ -32,7 +32,7 @@
     "spriteId": {"name":"spr_extrahit","path":"sprites/spr_extrahit/spr_extrahit.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 2.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
