@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_left": 2,
+  "bbox_right": 57,
   "bbox_top": 0,
   "bbox_bottom": 63,
   "HTile": false,
@@ -24,12 +24,12 @@
   "gridX": 2,
   "gridY": 2,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"707ada90-44cf-42db-8502-8773df20bde0","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"707ada90-44cf-42db-8502-8773df20bde0","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},"LayerId":{"name":"4b4733cd-6ef2-4ac8-966c-57d51b827316","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_bombablerock","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},"resourceVersion":"1.0","name":"707ada90-44cf-42db-8502-8773df20bde0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"61b93c04-76a4-477b-81ca-43dd07d24a8e","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"61b93c04-76a4-477b-81ca-43dd07d24a8e","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},"LayerId":{"name":"0629cb7c-3bcb-41f5-a309-e2461fdaccc2","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_stonepanda","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},"resourceVersion":"1.0","name":"61b93c04-76a4-477b-81ca-43dd07d24a8e","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_bombablerock","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},
+    "spriteId": {"name":"spr_stonepanda","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7cb02202-aa4c-4aa7-9b2f-76cdae2ec88b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"707ada90-44cf-42db-8502-8773df20bde0","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"caba2468-5f51-492d-b330-ab2badf7c1d6","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"61b93c04-76a4-477b-81ca-43dd07d24a8e","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_bombablerock","path":"sprites/spr_bombablerock/spr_bombablerock.yy",},
+    "parent": {"name":"spr_stonepanda","path":"sprites/spr_stonepanda/spr_stonepanda.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_bombablerock",
+    "name": "spr_stonepanda",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4b4733cd-6ef2-4ac8-966c-57d51b827316","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0629cb7c-3bcb-41f5-a309-e2461fdaccc2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "All",
     "path": "folders/Sprites/All.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_bombablerock",
+  "name": "spr_stonepanda",
   "tags": [],
   "resourceType": "GMSprite",
 }
