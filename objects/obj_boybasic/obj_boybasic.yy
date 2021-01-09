@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cityskyline3",
-    "path": "sprites/spr_cityskyline3/spr_cityskyline3.yy",
+    "name": "spr_basicmale",
+    "path": "sprites/spr_basicmale/spr_basicmale.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cityskyline",
+  "name": "obj_boybasic",
   "tags": [],
   "resourceType": "GMObject",
 }
