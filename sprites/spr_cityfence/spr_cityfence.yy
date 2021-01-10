@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 2,
-  "gridY": 2,
+  "gridX": 16,
+  "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"010f4564-5e48-4642-a6d3-1e5129589dad","path":"sprites/spr_cityfence/spr_cityfence.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"010f4564-5e48-4642-a6d3-1e5129589dad","path":"sprites/spr_cityfence/spr_cityfence.yy",},"LayerId":{"name":"fd4d5071-8b5c-4028-90f3-e2b28e85529e","path":"sprites/spr_cityfence/spr_cityfence.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
