@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_phblock","path":"sprites/spr_phblock/spr_phblock.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_phblock",
     "tags": [],
     "resourceType": "GMSequence",
   },
