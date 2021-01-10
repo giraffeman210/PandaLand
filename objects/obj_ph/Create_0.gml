@@ -26,6 +26,7 @@ happy = false;
 happyalarm = false;
 hp = (1 + global.def_lv);
 normalsprite = true;
+normalsprites = []
 hitsprites = [spr_phhit, spr_phinvicible, spr_phjumpinvincible]
 
 //Create Sage Ghost

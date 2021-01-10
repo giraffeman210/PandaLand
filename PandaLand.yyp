@@ -73,6 +73,7 @@
     {"id":{"name":"obj_cavespikeup3","path":"objects/obj_cavespikeup3/obj_cavespikeup3.yy",},"order":79,},
     {"id":{"name":"spr_enemybasicattack0","path":"sprites/spr_enemybasicattack0/spr_enemybasicattack0.yy",},"order":6,},
     {"id":{"name":"spr_enemybasicattack","path":"sprites/spr_enemybasicattack/spr_enemybasicattack.yy",},"order":6,},
+    {"id":{"name":"spr_phinvisible","path":"sprites/spr_phinvisible/spr_phinvisible.yy",},"order":32,},
     {"id":{"name":"spr_enemybasic0","path":"sprites/spr_enemybasic0/spr_enemybasic0.yy",},"order":3,},
     {"id":{"name":"spr_maleoldwalkb","path":"sprites/spr_maleoldwalkb/spr_maleoldwalkb.yy",},"order":44,},
     {"id":{"name":"spr_enemybasic","path":"sprites/spr_enemybasic/spr_enemybasic.yy",},"order":2,},

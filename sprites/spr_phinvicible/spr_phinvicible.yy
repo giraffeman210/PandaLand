@@ -47,7 +47,7 @@
     "spriteId": {"name":"spr_phinvicible","path":"sprites/spr_phinvicible/spr_phinvicible.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 10.5,
+    "playbackSpeed": 10.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
