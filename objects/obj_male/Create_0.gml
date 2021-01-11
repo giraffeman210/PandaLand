@@ -2,59 +2,122 @@
 person = irandom_range(1,36);
 
 if person = 1 {
-	sprite_index = spr_maler
+	if global.lock1 = false {
+		sprite_index = spr_maler;
+		global.lock1 = true;
+	}
 }
 if person = 2 {
-	sprite_index = spr_maleb
+	if global.lock2 = false {
+	sprite_index = spr_maleb;
+	global.lock2 = true;
+	}
 }
 if person = 3 {
-	sprite_index = spr_malebb
+	if global.lock3 = false {
+	sprite_index = spr_malebb;
+	global.lock3 = true;
+	}
 }
 if person = 4 {
-	sprite_index = spr_malenerdr
+	if global.lock4 = false {
+	sprite_index = spr_malenerdr;
+	global.lock4 = true;
+	}
 }
 if person = 5 {
-	sprite_index = spr_malenerdb
+	if global.lock5 = false {
+	sprite_index = spr_malenerdb;
+	global.lock5 = true;
+	}
 }
 if person = 6 {
-	sprite_index = spr_malenerdbb
+	if global.lock6 = false {
+	sprite_index = spr_malenerdbb;
+	global.lock6 = true;
+	}
 }
 if person = 7 {
-	sprite_index = spr_maleoldr
+	if global.lock7 = false {
+	sprite_index = spr_maleoldr;
+	global.lock7 = true;
+	}
 }
 if person = 8 {
-	sprite_index = spr_maleoldb
+	if global.lock8 = false {
+	sprite_index = spr_maleoldb;
+	global.lock8 = true;
+	}
 }
 if person = 9 {
-	sprite_index = spr_maleoldbb
+	if global.lock9 = false {
+	sprite_index = spr_maleoldbb;
+	global.lock9 = true;
+	}
 }
 if person = 10 {
-	sprite_index = spr_femaleg
+	if global.lock10 = false {
+	sprite_index = spr_femaleg;
+	global.lock10 = true;
+	}
 }
 if person = 11 {
-	sprite_index = spr_femalep
+	if global.lock11 = false {
+	sprite_index = spr_femalep;
+	global.lock11 = true;
+	}
 }
 if person = 12 {
-	sprite_index = spr_femaley
+	if global.lock12 = false {
+	sprite_index = spr_femaley;
+	global.lock12 = true;
+	}
 }
 if person = 13 {
-	sprite_index = spr_femalenerdg
+	if global.lock13 = false {
+	sprite_index = spr_femalenerdg;
+	global.lock13 = true;
+	}
 }
 if person = 14 {
-	sprite_index = spr_femalenerdp
+	if global.lock14 = false {
+	sprite_index = spr_femalenerdp;
+	global.lock14 = true;
+	}
 }
 if person = 15 {
-	sprite_index = spr_femalenerdy
+	if global.lock15 = false {
+	sprite_index = spr_femalenerdy;
+	global.lock15 = true;
+	}
 }
 if person = 16 {
-	sprite_index = spr_femaleoldg
+	if global.lock16 = false {
+	sprite_index = spr_femaleoldg;
+	global.lock16 = true;
+	}
 }
 if person = 17 {
-	sprite_index = spr_femaleoldp
+	if global.lock17 = false {
+	sprite_index = spr_femaleoldp;
+	global.lock17 = true;
+	}
 }
 if person = 18 {
-	sprite_index = spr_femaleoldy
+	if global.lock18 = false {
+	sprite_index = spr_femaleoldy;
+	global.lock18 = true;
+	}
 }
-if person > 18 {
+if person = 19 {
+	if global.lock19 = false {
+		alex = irandom_range(1,2);
+		if alex = 1 {
+			sprite_index = spr_alex;
+			global.lock19 = true;
+		}
+	}
+}
+if person > 19 {
 	instance_destroy(self)
 }
