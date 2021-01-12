@@ -111,7 +111,7 @@ if person = 18 {
 }
 if person = 19 {
 	if global.lock38 = false {
-		connor = irandom_range(1,2); 
+		connor = irandom_range(1,3); 
 		if connor = 1 {
 		sprite_index = spr_connor
 		global.lock38 = true
