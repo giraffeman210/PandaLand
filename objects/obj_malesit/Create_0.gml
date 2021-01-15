@@ -1,5 +1,5 @@
 /// @description Insert description here
-person = irandom_range(1,36);
+person = irandom_range(1,32);
 
 if person = 1 {
 	if global.lock20 = false {
