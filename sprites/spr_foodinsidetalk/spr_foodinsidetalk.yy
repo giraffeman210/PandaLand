@@ -27,9 +27,9 @@
     {"compositeImage":{"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_foodinsidetalk","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"2329acf3-c006-48a8-8629-62abe6680eee","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2329acf3-c006-48a8-8629-62abe6680eee","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_foodinsidetalk","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"2329acf3-c006-48a8-8629-62abe6680eee","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"3dab60dc-fe57-4bc9-ae7a-e9bf75619864","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"3dab60dc-fe57-4bc9-ae7a-e9bf75619864","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_foodinsidetalk","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","name":"3dab60dc-fe57-4bc9-ae7a-e9bf75619864","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_foodinsidetalk","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"448530cb-905f-4f39-9097-887a384e1d38","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"b74ee839-4e63-4cac-9021-33aaca632e65","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2329acf3-c006-48a8-8629-62abe6680eee","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"812dec7a-23c0-4dd9-bd38-1b32f743f330","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"613d0ef2-108d-4c63-bc53-0cea530b321a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"3dab60dc-fe57-4bc9-ae7a-e9bf75619864","path":"sprites/spr_foodinsidetalk/spr_foodinsidetalk.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
