@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 2,
-  "gridY": 2,
+  "gridX": 64,
+  "gridY": 64,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

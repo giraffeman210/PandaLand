@@ -24,12 +24,12 @@
   "gridX": 2,
   "gridY": 2,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_drugstoreinside","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"resourceVersion":"1.0","name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},"LayerId":{"name":"c4252617-21dc-46d2-965d-12670e9aa95c","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_foodinsidebuy","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},"resourceVersion":"1.0","name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_drugstoreinside","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},
+    "spriteId": {"name":"spr_foodinsidebuy","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0fb8e7f8-c700-40f7-a4f0-e2a12e187f89","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6d27d13b-c4dd-4533-b6f0-3b938abda02e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b976af0-12bd-4ecf-9f18-8c2ff4e8e1cb","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_drugstoreinside","path":"sprites/spr_drugstoreinside/spr_drugstoreinside.yy",},
+    "parent": {"name":"spr_foodinsidebuy","path":"sprites/spr_foodinsidebuy/spr_foodinsidebuy.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_drugstoreinside",
+    "name": "spr_foodinsidebuy",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites/Panda City.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_drugstoreinside",
+  "name": "spr_foodinsidebuy",
   "tags": [],
   "resourceType": "GMSprite",
 }
