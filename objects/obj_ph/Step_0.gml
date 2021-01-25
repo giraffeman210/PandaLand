@@ -90,10 +90,10 @@ if (lastkeydown == "")
 //Jump
 if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
 {
-	if (happy = false) {
+	if (!happy) {
 		sprite_index = spr_phjump;
 	}
-	if (happy = true) {
+	else {
 		sprite_index = spr_phjumphappy;
 	}
 	vsp = initjumpvelocity;
@@ -144,7 +144,7 @@ if (place_meeting(x,y+vsp,obj_basewall))
 		if(!happy){
 			sprite_index = spr_ph;
 		}
-		if(happy) {
+		else {
 			sprite_index = spr_phhappy;
 			if(!happyalarm) {
 				alarm_set(1, 60);
@@ -163,7 +163,8 @@ if (attacking) {
 x = x + hsp;
 y = y + vsp;
 
-//show_debug_message(hsp);
+//animations
+
 if(hsp != 0 || vsp != 0) {
 	alarm[2] = room_speed * 15;
 }
