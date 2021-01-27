@@ -5,5 +5,5 @@ instance_destroy(other);
 audio_play_sound(eat_fruit, 10, false);
 
 obj_collect.collect = 4
-
+alarm_set(1, 60);
 happy = true;
