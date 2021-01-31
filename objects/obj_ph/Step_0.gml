@@ -1,12 +1,11 @@
 /// @desc Main Step Event
 
-
-if(!normalsprite){
-	if keyboard_check_pressed(vk_anykey){
-		normalsprite = true;
-		sprite_index = spr_ph;
-	}	
-}
+//if(!normalsprite){
+//	if keyboard_check_pressed(vk_anykey){
+//		normalsprite = true;
+//		sprite_index = spr_ph;
+//	}	
+//}
 
 //Attack
 //We want to make sure panda is not attacking already
@@ -15,7 +14,6 @@ if (keyboard_check_pressed(vk_enter) && !attacking) {
 	if (image_xscale == -1) {
 		staff.image_xscale = -1;	
 	}
-	sprite_index = spr_phattack;
 	attacking = true;
 	audio_play_sound(attack, 10, false)
 	alarm[0] = room_speed * .2;
@@ -80,7 +78,7 @@ if (lastkeydown == "right")
 	}
 	hsp = walksp;
 }
-if attacking and place_meeting(x,y+1,obj_basewall) exit;
+//if attacking and place_meeting(x,y+1,obj_basewall) exit;
 if (lastkeydown == "")
 {
 	hsp = 0;
@@ -88,17 +86,16 @@ if (lastkeydown == "")
 
 
 //Jump
-if (place_meeting(x,y+1,obj_basewall) && keyboard_check_pressed(vk_space))
+if place_meeting(x,y+1,obj_basewall) {
+	onground = true;
+}
+else {
+	onground = false;	
+}
+if (onground && keyboard_check_pressed(vk_space))
 {
-	if (happy = false) {
-		sprite_index = spr_phjump;
-	}
-	if (happy = true) {
-		sprite_index = spr_phjumphappy;
-	}
 	vsp = initjumpvelocity;
 	audio_play_sound(jump, 10, false);
-	
 }
 if (keyboard_check_released(vk_space))
 {	
@@ -140,18 +137,18 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	{
 			y = y + sign(vsp);
 	}
-	if (sign(vsp) != -1 and !attacking and normalsprite) {
-		if(!happy){
-			sprite_index = spr_ph;
-		}
-		if(happy) {
-			sprite_index = spr_phhappy;
-			if(!happyalarm) {
-				alarm_set(1, 60);
-				happyalarm = true;
-			}
-		}
-	}
+	//if (sign(vsp) != -1 and !attacking and normalsprite) {
+	//	if(!happy){
+	//		sprite_index = spr_ph;
+	//	}
+	//	else {
+	//		sprite_index = spr_phhappy;
+	//		if(!happyalarm) {
+	//			alarm_set(1, 60);
+	//			happyalarm = true;
+	//		}
+	//	}
+	//}
 	vsp = 0;
 }
 
@@ -163,7 +160,38 @@ if (attacking) {
 x = x + hsp;
 y = y + vsp;
 
-//show_debug_message(hsp);
+//animations
+if !onground {
+	if !happy {
+		sprite_index = spr_phjump;
+	}
+	else {
+		sprite_index = spr_phjumphappy;
+	}	
+}
+else {
+	if !attacking {
+		if(!happy){
+			sprite_index = spr_ph;
+		}
+		else {
+			sprite_index = spr_phhappy;	
+		}
+	}	
+}
+if attacking {
+	sprite_index = spr_phattack;	
+}
+
+
+
+
+
+
+
+
+
+
 if(hsp != 0 || vsp != 0) {
 	alarm[2] = room_speed * 15;
 }
