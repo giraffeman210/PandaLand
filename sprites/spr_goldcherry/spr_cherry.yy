@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_cherry","path":"sprites/spr_cherry/spr_cherry.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_cherry",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
