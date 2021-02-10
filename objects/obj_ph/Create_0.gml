@@ -27,8 +27,12 @@ happyalarm = false;
 hp = (1 + global.def_lv);
 normalsprite = true;
 onground = true;
-normalsprites = []
-hitsprites = [spr_phhit, spr_phinvicible, spr_phjumpinvincible]
+grounded = 0;
+spritetype = "normal";
+spritemap = ds_map_create();
+ds_map_add(spritemap, "normal", [spr_ph, spr_phjump]);
+ds_map_add(spritemap, "happy", [spr_phhappy, spr_phjumphappy]);
+//ds_map_add(spritelist, "normal", [spr_phhit, ]);
 
 //Create Sage Ghost
 if (room == room_pandafalls) {

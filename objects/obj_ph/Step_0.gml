@@ -87,9 +87,11 @@ if (lastkeydown == "")
 
 //Jump
 if place_meeting(x,y+1,obj_basewall) {
+	grounded = 0;
 	onground = true;
 }
 else {
+	grounded = 1;
 	onground = false;	
 }
 if (onground && keyboard_check_pressed(vk_space))
@@ -161,24 +163,32 @@ x = x + hsp;
 y = y + vsp;
 
 //animations
-if !onground {
-	if !happy {
-		sprite_index = spr_phjump;
-	}
-	else {
-		sprite_index = spr_phjumphappy;
-	}	
+
+if !invincible {
+	//get the sprite from list by using key value pairs. spritetype determines which set of sprites
+	//we want to use. Grounded gets either standing or jumping sprite by index.
+	sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
 }
-else {
-	if !attacking {
-		if(!happy){
-			sprite_index = spr_ph;
-		}
-		else {
-			sprite_index = spr_phhappy;	
-		}
-	}	
-}
+//if !onground {
+	//sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
+	//if !happy {
+	//	sprite_index = spr_phjump;
+	//}
+	//else {
+	//	sprite_index = spr_phjumphappy;
+	//}	
+//}
+//else {
+	//if !attacking {
+		//sprite_index = ds_map_find_value(spritemap, spritetype)[0];
+		//if(!happy){
+		//	sprite_index = spr_ph;
+		//}
+		//else {
+		//	sprite_index = spr_phhappy;	
+		//}
+	//}	
+//}
 if attacking {
 	sprite_index = spr_phattack;	
 }

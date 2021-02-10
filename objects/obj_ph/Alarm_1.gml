@@ -1,4 +1,4 @@
 /// @description happy no more
 
-happy = false;
+spritetype = "normal";
 happyalarm = false;
