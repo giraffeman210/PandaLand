@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_orange","path":"sprites/spr_orange/spr_orange.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_orange",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
