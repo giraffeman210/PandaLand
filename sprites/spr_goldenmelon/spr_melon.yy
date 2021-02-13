@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_melon","path":"sprites/spr_melon/spr_melon.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_melon",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },
