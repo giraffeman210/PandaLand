@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_grape","path":"sprites/spr_grape/spr_grape.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_grape",
+    "name": "",
     "tags": [],
     "resourceType": "GMSequence",
   },

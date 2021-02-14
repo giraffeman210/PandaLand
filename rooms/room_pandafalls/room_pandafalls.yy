@@ -124,7 +124,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_watertop","path":"objects/obj_watertop/obj_watertop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":4096.0,"y":704.0,"resourceVersion":"1.0","name":"inst_16B5550C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_blocktest2","path":"objects/obj_blocktest2/obj_blocktest2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":544.0,"resourceVersion":"1.0","name":"inst_6ACB810D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_blocktest2","path":"objects/obj_blocktest2/obj_blocktest2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":672.0,"resourceVersion":"1.0","name":"inst_4BE801CE","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_forestboss","path":"objects/obj_forestboss/obj_forestboss.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":256.0,"resourceVersion":"1.0","name":"inst_7F09F1FD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"layer_front","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_coin","path":"objects/obj_coin/obj_coin.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":5088.0,"y":416.0,"resourceVersion":"1.0","name":"inst_96AAF71","tags":[],"resourceType":"GMRInstance",},
@@ -2490,7 +2489,6 @@
     {"name":"inst_5C9DDEDF","path":"rooms/room_pandafalls/room_pandafalls.yy",},
     {"name":"inst_42D795B","path":"rooms/room_pandafalls/room_pandafalls.yy",},
     {"name":"inst_1F617A62","path":"rooms/room_pandafalls/room_pandafalls.yy",},
-    {"name":"inst_7F09F1FD","path":"rooms/room_pandafalls/room_pandafalls.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
