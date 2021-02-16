@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_bush","path":"sprites/spr_bush/spr_bush.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_bush",
     "tags": [],
     "resourceType": "GMSequence",
   },
