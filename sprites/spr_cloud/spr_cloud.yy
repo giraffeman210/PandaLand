@@ -139,7 +139,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_cloud","path":"sprites/spr_cloud/spr_cloud.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_cloud",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_lantern","path":"sprites/spr_lantern/spr_lantern.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_lantern",
     "tags": [],
     "resourceType": "GMSequence",
   },
