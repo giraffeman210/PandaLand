@@ -488,7 +488,6 @@
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"order":17,},
     {"id":{"name":"obj_lightpost","path":"objects/obj_lightpost/obj_lightpost.yy",},"order":151,},
     {"id":{"name":"obj_cloud","path":"objects/obj_cloud/obj_cloud.yy",},"order":18,},
-    {"id":{"name":"room_forestboss","path":"rooms/room_forestboss/room_forestboss.yy",},"order":7,},
     {"id":{"name":"obj_male","path":"objects/obj_male/obj_male.yy",},"order":118,},
     {"id":{"name":"obj_roofpright","path":"objects/obj_roofpright/obj_roofpright.yy",},"order":105,},
     {"id":{"name":"obj_cloudbig","path":"objects/obj_cloudbig/obj_cloudbig.yy",},"order":19,},
@@ -584,7 +583,6 @@
     {"roomId":{"name":"room_pandacaves","path":"rooms/room_pandacaves/room_pandacaves.yy",},},
     {"roomId":{"name":"room_pandaseaside","path":"rooms/room_pandaseaside/room_pandaseaside.yy",},},
     {"roomId":{"name":"room_pandacity","path":"rooms/room_pandacity/room_pandacity.yy",},},
-    {"roomId":{"name":"room_forestboss","path":"rooms/room_forestboss/room_forestboss.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
