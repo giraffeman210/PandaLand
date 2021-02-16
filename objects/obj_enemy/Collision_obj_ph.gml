@@ -3,7 +3,9 @@
 if (obj_ph.invincible == false)
 {
 	obj_ph.hp -= 1;
-	obj_ph.invincible = true;
-	alarm_set(3,6);
-	alarm_set(2,60);
+	if obj_ph.hp > 0 {
+		obj_ph.invincible = true;
+		alarm_set(3,6);
+		alarm_set(2,60);
+	}
 }

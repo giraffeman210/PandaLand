@@ -1,20 +1,14 @@
 {
-  "spriteId": {
-    "name": "spr_melon",
-    "path": "sprites/spr_melon/spr_melon.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_fruit",
-    "path": "objects/obj_fruit/obj_fruit.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,7 +18,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ph","path":"objects/obj_ph/obj_ph.yy",},"parent":{"name":"obj_melon","path":"objects/obj_melon/obj_melon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ph","path":"objects/obj_ph/obj_ph.yy",},"parent":{"name":"obj_fruit","path":"objects/obj_fruit/obj_fruit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_melon",
+  "name": "obj_fruit",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -381,6 +381,7 @@
     {"id":{"name":"obj_femalesit","path":"objects/obj_femalesit/obj_femalesit.yy",},"order":120,},
     {"id":{"name":"obj_fruitstand","path":"objects/obj_fruitstand/obj_fruitstand.yy",},"order":140,},
     {"id":{"name":"spr_enemybigattackhit","path":"sprites/spr_enemybigattackhit/spr_enemybigattackhit.yy",},"order":10,},
+    {"id":{"name":"obj_fruit","path":"objects/obj_fruit/obj_fruit.yy",},"order":170,},
     {"id":{"name":"obj_blockforest1","path":"objects/obj_blockforest1/obj_blockforest1.yy",},"order":56,},
     {"id":{"name":"she_showers_with_pantene","path":"sounds/she_showers_with_pantene/she_showers_with_pantene.yy",},"order":1,},
     {"id":{"name":"spr_specialenemies","path":"sprites/spr_specialenemies/spr_specialenemies.yy",},"order":35,},

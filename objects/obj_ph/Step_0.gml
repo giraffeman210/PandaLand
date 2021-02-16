@@ -1,5 +1,5 @@
 /// @desc Main Step Event
-
+if dead exit;	
 //if(!normalsprite){
 //	if keyboard_check_pressed(vk_anykey){
 //		normalsprite = true;
@@ -87,14 +87,12 @@ if (lastkeydown == "")
 
 //Jump
 if place_meeting(x,y+1,obj_basewall) {
-	grounded = 0;
-	onground = true;
+	grounded = 1;
 }
 else {
-	grounded = 1;
-	onground = false;	
+	grounded = 0;	
 }
-if (onground && keyboard_check_pressed(vk_space))
+if (grounded && keyboard_check_pressed(vk_space))
 {
 	vsp = initjumpvelocity;
 	audio_play_sound(jump, 10, false);
@@ -121,16 +119,9 @@ if (place_meeting(x+hsp,y,obj_basewall))
 }
 
 //Change animation to match movement
-if(normalsprite) {
-	if(hsp == 0){
-		image_speed = 0;
-		image_index = 0;
-	}
-	else {
-		image_speed = 1;
-	}
-}
+//if(normalsprite) {
 
+//}
 
 //Vertical Collision
 if (place_meeting(x,y+vsp,obj_basewall))
@@ -154,6 +145,9 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	vsp = 0;
 }
 
+if attacking and grounded {
+	hsp = 0;
+}
 if (attacking) {
 	staff.x = staff.x + hsp;
 	staff.y = staff.y + vsp;
@@ -163,31 +157,40 @@ x = x + hsp;
 y = y + vsp;
 
 //animations
-
-if !invincible {
+if sprite_index != spr_phinvisible {
 	//get the sprite from list by using key value pairs. spritetype determines which set of sprites
 	//we want to use. Grounded gets either standing or jumping sprite by index.
-	sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
+	if !afk {
+		sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
+		if(hsp == 0){
+			image_speed = 0;
+			image_index = 0;
+		}
+		else {
+			image_speed = 1;
+		}
+	}
 }
+	
 //if !onground {
-	//sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
-	//if !happy {
-	//	sprite_index = spr_phjump;
-	//}
-	//else {
-	//	sprite_index = spr_phjumphappy;
-	//}	
+//	//sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
+//	if !happy {
+//		sprite_index = spr_phjump;
+//	}
+//	else {
+//		sprite_index = spr_phjumphappy;
+//	}	
 //}
 //else {
-	//if !attacking {
-		//sprite_index = ds_map_find_value(spritemap, spritetype)[0];
-		//if(!happy){
-		//	sprite_index = spr_ph;
-		//}
-		//else {
-		//	sprite_index = spr_phhappy;	
-		//}
-	//}	
+//	if !attacking {
+//		//sprite_index = ds_map_find_value(spritemap, spritetype)[0];
+//		if(!happy){
+//			sprite_index = spr_ph;
+//		}
+//		else {
+//			sprite_index = spr_phhappy;	
+//		}
+//	}	
 //}
 if attacking {
 	sprite_index = spr_phattack;	
@@ -196,13 +199,8 @@ if attacking {
 
 
 
-
-
-
-
-
-
 if(hsp != 0 || vsp != 0) {
+	afk = false;
 	alarm[2] = room_speed * 15;
 }
 
@@ -243,6 +241,10 @@ if(global.spl_exp >= exp_max) {
 
 //death
 if(hp <= 0) {
+	dead = true;
 	audio_stop_all();
-	room_restart();
+	audio_play_sound(player_dead, 10, false);
+	image_speed = 1;
+	sprite_index = choose(spr_phdead1, spr_phdead2, spr_phdead3);
+	alarm_set(3, 180);
 }

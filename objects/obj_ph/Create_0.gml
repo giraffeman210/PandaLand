@@ -1,5 +1,6 @@
 /// @desc Initilize Variables for Panda Hero
-
+afk = false;
+dead = false;
 hsp = 0;
 vsp = 0;
 initjumpvelocity = -14.3;
@@ -22,16 +23,17 @@ money = 0;
 hpmax = (1 + global.def_lv);
 hp = hpmax;
 spl_count = (global.spl_lv*20);
-happy = false;
+//happy = false;
 happyalarm = false;
 hp = (1 + global.def_lv);
-normalsprite = true;
-onground = true;
-grounded = 0;
+//normalsprite = true;
+grounded = 1;
 spritetype = "normal";
 spritemap = ds_map_create();
-ds_map_add(spritemap, "normal", [spr_ph, spr_phjump]);
-ds_map_add(spritemap, "happy", [spr_phhappy, spr_phjumphappy]);
+//ds_map_add(spritemap, "normal", [spr_ph, spr_phjump]);
+//ds_map_add(spritemap, "happy", [spr_phhappy, spr_phjumphappy]);
+ds_map_add(spritemap, "normal", [spr_phjump, spr_ph]);
+ds_map_add(spritemap, "happy", [spr_phjumphappy, spr_phhappy]);
 //ds_map_add(spritelist, "normal", [spr_phhit, ]);
 
 //Create Sage Ghost
