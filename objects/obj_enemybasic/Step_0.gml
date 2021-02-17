@@ -1,6 +1,10 @@
 /// @description 
 event_inherited();
-
+if hit {
+	sprite_index = spr_enemybasichit
+	script_enemyhit(movepoint, hitspeed);
+	exit
+}
 if (place_meeting(x+hsp,y,obj_wall))
 {
 	while (!place_meeting(x+sign(hsp),y,obj_wall))

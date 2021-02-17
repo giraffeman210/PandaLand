@@ -517,6 +517,7 @@
     {"id":{"name":"obj_male","path":"objects/obj_male/obj_male.yy",},"order":118,},
     {"id":{"name":"obj_roofpright","path":"objects/obj_roofpright/obj_roofpright.yy",},"order":105,},
     {"id":{"name":"obj_treehousepostb","path":"objects/obj_treehousepostb/obj_treehousepostb.yy",},"order":176,},
+    {"id":{"name":"script_enemyhit","path":"scripts/script_enemyhit/script_enemyhit.yy",},"order":1,},
     {"id":{"name":"obj_cloudbig","path":"objects/obj_cloudbig/obj_cloudbig.yy",},"order":19,},
     {"id":{"name":"obj_cityskylinemonster","path":"objects/obj_cityskylinemonster/obj_cityskylinemonster.yy",},"order":110,},
     {"id":{"name":"spr_enemybouncesmacked","path":"sprites/spr_enemybouncesmacked/spr_enemybouncesmacked.yy",},"order":34,},
