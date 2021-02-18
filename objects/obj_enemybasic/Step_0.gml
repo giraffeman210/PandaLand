@@ -15,6 +15,7 @@ if (place_meeting(x+hsp,y,obj_wall))
 	image_xscale = image_xscale * -1;
 }
 
+
 if (aggro) {
 	sprite_index = spr_enemybasicattack;
 	x = x + hsp;
