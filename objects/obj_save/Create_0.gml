@@ -12,3 +12,9 @@ global.spl_lv = 0;
 global.spawnpointx = 96;
 global.spawnpointy = 480;
 global.levelup = false;
+var i = 0;
+global.itemscollected = ds_map_create();
+while (room_exists(i)) {
+	ds_map_add(global.itemscollected, i, ds_list_create());
+	i++;
+}
