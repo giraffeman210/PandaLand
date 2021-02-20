@@ -3,5 +3,5 @@
 if (hp == 0){
 	audio_play_sound(enemy_dead, 10, false);
 	instance_create_layer(x, y,"instances", obj_enemydead);
-	instance_destroy(self)
+	instance_destroy(self);
 }

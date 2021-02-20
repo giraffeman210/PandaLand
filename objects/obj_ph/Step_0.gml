@@ -109,14 +109,17 @@ if (keyboard_check_released(vk_space))
 vsp = vsp - grv;
 
 //Horizontal Collision
-if (place_meeting(x+hsp,y,obj_basewall))
-{
-	while (!place_meeting(x+sign(hsp),y,obj_basewall))
-	{
-			x = x + sign(hsp)
-	}
+if (script_wallcollision(hsp)) {
 	hsp = 0;
 }
+//if (place_meeting(x+hsp,y,obj_basewall))
+//{
+//	while (!place_meeting(x+sign(hsp),y,obj_basewall))
+//	{
+//			x = x + sign(hsp)
+//	}
+	
+//}
 
 //Change animation to match movement
 //if(normalsprite) {
@@ -144,6 +147,9 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	//}
 	vsp = 0;
 }
+if (place_meeting(x, y, obj_platformfloat) and place_meeting(x, y, obj_blocktest)) {
+	hp = 0;
+}
 
 if attacking and grounded {
 	hsp = 0;
@@ -156,6 +162,9 @@ if (attacking) {
 x = x + hsp;
 y = y + vsp;
 
+if (y > room_height + 64) {
+	hp = 0;	
+}
 //animations
 if sprite_index != spr_phinvisible {
 	//get the sprite from list by using key value pairs. spritetype determines which set of sprites
@@ -171,7 +180,6 @@ if sprite_index != spr_phinvisible {
 		}
 	}
 }
-	
 //if !onground {
 //	//sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
 //	if !happy {
@@ -227,6 +235,7 @@ if(global.spd_exp >= exp_max) {
 	global.spd_exp = 0;
 	global.level += 1;
 	global.spd_lv += 1;
+	walksp += 1;
 	instance_create_layer(other.x, (other.y-32), "layer_text", obj_levelup);
 	audio_play_sound(level_up, 10, false);
 }
