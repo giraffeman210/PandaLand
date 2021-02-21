@@ -108,9 +108,12 @@ if (keyboard_check_released(vk_space))
 //Gravity pulls down player
 vsp = vsp - grv;
 
+var hspfinal = hsp + hspcarry;
+hspcarry = 0;
+
 //Horizontal Collision
-if (script_wallcollision(hsp)) {
-	hsp = 0;
+if (script_wallcollision(hspfinal)) {
+	hspfinal = 0;
 }
 //if (place_meeting(x+hsp,y,obj_basewall))
 //{
@@ -147,19 +150,19 @@ if (place_meeting(x,y+vsp,obj_basewall))
 	//}
 	vsp = 0;
 }
-if (place_meeting(x, y, obj_platformfloat) and place_meeting(x, y, obj_blocktest)) {
+if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_platformfloat)) and (place_meeting(x + 1, y, obj_blocktest) or place_meeting(x - 1, y, obj_blocktest))) {
 	hp = 0;
 }
 
 if attacking and grounded {
-	hsp = 0;
+	hspfinal = 0;
 }
 if (attacking) {
 	staff.x = staff.x + hsp;
 	staff.y = staff.y + vsp;
 }
 
-x = x + hsp;
+x = x + hspfinal;
 y = y + vsp;
 
 if (y > room_height + 64) {

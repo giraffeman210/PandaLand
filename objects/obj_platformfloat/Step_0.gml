@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 //player = instance_place(x, y - 1, obj_ph);
 //if (place_meeting(x + xspeed, y + yspeed,obj_basewall))
 //{
@@ -27,7 +29,6 @@ if (place_meeting(x, y, obj_platformfloatstop)){
 	if (not turned) {
 		approachingturn = true;
 	}
-	
 }
 else {
 	approachingturn = false;
@@ -41,11 +42,10 @@ if approachingturn {
 	}	
 }
 
-
-if (place_meeting(x, y - 1,obj_ph) and obj_ph.hp != 0) {
-	obj_ph.x += movespd;
-//	obj_ph.y += yspeed;
+if (place_meeting(x, y - 1,obj_ph) or place_meeting(x + movespd, y,obj_ph)) {
+	obj_ph.hspcarry += movespd;
 }
+
 x += movespd;
 //y += yspeed;
 
