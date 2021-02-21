@@ -1,6 +1,6 @@
 /// @description Insert description here
-hsp = -6;
-vsp = 0;
-aggro = false;
-hp = 300;
 event_inherited();
+hsp = -6;
+aggro = false;
+hp = 2;
+hitsprite =  spr_enemybasichit;

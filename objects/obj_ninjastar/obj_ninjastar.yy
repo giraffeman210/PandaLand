@@ -20,7 +20,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_basewall","path":"objects/obj_basewall/obj_basewall.yy",},"parent":{"name":"obj_ninjastar","path":"objects/obj_ninjastar/obj_ninjastar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ph","path":"objects/obj_ph/obj_ph.yy",},"parent":{"name":"obj_ninjastar","path":"objects/obj_ninjastar/obj_ninjastar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
