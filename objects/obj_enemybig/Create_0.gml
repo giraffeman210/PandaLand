@@ -3,4 +3,5 @@
 event_inherited();
 hp = 5;
 hitsprite = spr_enemybigattackhit;
+normiesprite = spr_enemybig;
 hsp = -6;

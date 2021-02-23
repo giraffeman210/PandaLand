@@ -7,12 +7,17 @@ event_inherited();
 //follow panda
 	y = (obj_ph.y - 32);
 	
-if (obj_ph.lastkeydown = "left") {
-	image_xscale = -1;
-	x = (obj_ph.x + 64);
-}
+	
 
-if (obj_ph.lastkeydown = "right") {
-	image_xscale = 1;
-	x = (obj_ph.x - 64);
-}
+image_xscale = obj_ph.image_xscale;
+x = (obj_ph.x - (sign(image_xscale) * 64));
+
+//if (obj_ph.lastkeydown = "left") {
+//	image_xscale = -1;
+//	x = (obj_ph.x + 64);
+//}
+
+//if (obj_ph.lastkeydown = "right") {
+//	image_xscale = 1;
+//	x = (obj_ph.x - 64);
+//}

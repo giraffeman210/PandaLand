@@ -6,3 +6,4 @@ starthrown = false;
 starready = true;
 wait = false;
 hitsprite = spr_enemybasic2hit;
+normiesprite = spr_enemybasic2;

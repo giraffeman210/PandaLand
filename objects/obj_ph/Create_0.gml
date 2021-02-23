@@ -2,6 +2,7 @@
 afk = false;
 dead = false;
 hsp = 0;
+hspcarry = 0;
 vsp = 0;
 initjumpvelocity = -14.3;
 jumpheight = 160;

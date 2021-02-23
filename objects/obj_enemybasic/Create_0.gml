@@ -4,3 +4,4 @@ hsp = -6;
 aggro = false;
 hp = 2;
 hitsprite =  spr_enemybasichit;
+normiesprite = spr_enemybasic;
