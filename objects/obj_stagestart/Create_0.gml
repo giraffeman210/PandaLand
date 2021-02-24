@@ -1,3 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-game_restart();
+alarm_set(0,120);
