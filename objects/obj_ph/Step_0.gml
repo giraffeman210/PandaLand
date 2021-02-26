@@ -220,11 +220,13 @@ if(global.spl_exp >= exp_max) {
 
 //death
 if(hp <= 0) {
-	dead = true;
-	lives -= 1;
+	dead = true;	
 	audio_stop_all();
 	audio_play_sound(player_dead, 10, false);
 	image_speed = 1;
 	sprite_index = choose(spr_phdead1, spr_phdead2, spr_phdead3);
+	if (!lives) {
+		room_goto(room_gameover);	
+	}
 	alarm_set(3, 180);
 }
