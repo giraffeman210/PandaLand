@@ -1,5 +1,6 @@
 /// @desc Initilize Variables for Panda Hero
 afk = false;
+blocking = false;
 dead = false;
 hsp = 0;
 hspcarry = 0;
@@ -36,7 +37,7 @@ spritemap = ds_map_create();
 ds_map_add(spritemap, "normal", [spr_phjump, spr_ph]);
 ds_map_add(spritemap, "happy", [spr_phjumphappy, spr_phhappy]);
 //ds_map_add(spritelist, "normal", [spr_phhit, ]);
-
+onplatform = false;
 //Create Sage Ghost
 if (room == room_pandafalls) {
 	instance_create_layer((obj_ph.x - 64), (obj_ph.y - 32), "layer_player", obj_sage);
