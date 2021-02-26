@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_ninjastar",
-    "path": "sprites/spr_ninjastar/spr_ninjastar.yy",
+    "name": "spr_phblockmask",
+    "path": "sprites/spr_phblockmask/spr_phblockmask.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_projectile",
-    "path": "objects/obj_projectile/obj_projectile.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ninjastar",
+  "name": "obj_phblock",
   "tags": [],
   "resourceType": "GMObject",
 }

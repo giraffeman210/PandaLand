@@ -68,13 +68,14 @@ if (lastkeydown == "right")
 		staff.x = x + 64;
 		staff.image_xscale = 1;	
 	}
+	
 	hsp = walksp;
 }
 if (lastkeydown == "")
 {
 	hsp = 0;
 }
-
+if blocking blocker.x = x + (sprite_width / 2);
 
 //Jump
 if place_meeting(x,y+1,obj_basewall) {
@@ -97,7 +98,11 @@ if (keyboard_check_released(vk_space))
 }
 
 
-if (keyboard_check_direct(vk_rshift)) {
+if (keyboard_check_pressed(220)) {
+	if (!blocking) {
+		blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
+	}
+	blockswitch = true;
 	blocking = true;
 	alarm[4] = room_speed * .5;
 }
@@ -123,12 +128,16 @@ if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_
 	hp = 0;
 }
 
-if attacking and grounded and not onplatform{
+if (attacking or blocking) and grounded and not onplatform{
 	hspfinal = 0;
 }
 if (attacking) {
-	staff.x = staff.x + hspfinal;
-	staff.y = staff.y + vsp;
+	staff.x += hspfinal;
+	staff.y += vsp;
+}
+if (blocking) {
+	blocker.x += hspfinal;
+	blocker.y += vsp;
 }
 
 x = x + hspfinal;
@@ -153,8 +162,13 @@ if sprite_index != spr_phinvisible {
 	}
 }
 if blocking {
-	image_speed = 1;
+	image_speed = 0;
 	sprite_index = spr_phblock;
+	if blockswitch {
+		blockswitch = false;
+		if image_index == 0 image_index = 1;
+		else image_index = 0;
+	}
 }
 if attacking {
 	sprite_index = spr_phattack;	

@@ -16,7 +16,7 @@ draw_set_colour(c_yellow)
 draw_set_halign(fa_center)
 draw_text(x+(boxWidth/2), y+ybuffer, name);
 
-show_debug_message(string_width(y+nameHeight+ybuffer));
+// show_debug_message(string_width(y+nameHeight+ybuffer));
 //Draw part of the text
 draw_set_colour(c_white)
 draw_set_halign(fa_left)

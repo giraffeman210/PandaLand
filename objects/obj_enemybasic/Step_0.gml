@@ -17,7 +17,7 @@ if (script_wallcollision(hsp)) {
 //	image_xscale = image_xscale * -1;
 //}
 
-show_debug_message(aggro);
+
 if (aggro) {
 	sprite_index = spr_enemybasicattack;
 	x = x + hsp;

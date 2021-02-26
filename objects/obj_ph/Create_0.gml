@@ -1,6 +1,7 @@
 /// @desc Initilize Variables for Panda Hero
 afk = false;
 blocking = false;
+blockswitch = false;
 dead = false;
 hsp = 0;
 hspcarry = 0;
