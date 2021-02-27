@@ -11,10 +11,12 @@ draw_set_halign(fa_left)
 draw_set_valign(fa_top)
 draw_text(160, 16,"LEVEL")
 draw_text(256, 16,(global.level));
-draw_text(936, 18, (money));
+draw_text(936, 66, (money));
+draw_text(936, 32, "X");
+draw_text(960, 32, (lives));
 
 draw_set_font(fnt_textlg)
-draw_text(896, 16, "$:");
+draw_text(896, 64, "$:");
 
 draw_set_font(fnt_textsm)
 draw_text(16, 50, "ATK");
@@ -44,6 +46,7 @@ draw_sprite(spr_statbar,0, healthbar_x, (healthbar_y + 96));
 
 draw_sprite(spr_itembox, 0, 736, 16);
 draw_sprite(spr_wpbasic, 0, 736, 16);
+draw_sprite(spr_pandahead, 0, 896, 16);
 
 if(global.def_lv >= 1) {
 	if(hp >= 2) {
