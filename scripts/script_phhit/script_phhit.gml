@@ -4,12 +4,14 @@ function script_phhit(){
 	if (invincible == false)
 	{
 		hp -= 1;
+		invincible = true;
 		if hp > 0 {
-			invincible = true;
+			//invincible = true;
 			//obj_ph.alarm[6] = room_speed * .1;
 			alarm_set(6,6);
 			//obj_ph.alarm[5] = room_speed * 1;
 			alarm_set(5,60);
 		}
+		else script_phdead();
 	}
 }

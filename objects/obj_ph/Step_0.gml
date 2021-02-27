@@ -144,7 +144,7 @@ x = x + hspfinal;
 y = y + vsp;
 
 if (y > room_height + 64) {
-	hp = 0;	
+	script_phdead();
 }
 //animations
 if sprite_index != spr_phinvisible {
@@ -219,13 +219,13 @@ if(global.spl_exp >= exp_max) {
 }
 
 //death
-if(hp <= 0) {
-	script_phdead();
-	//dead = true;	
-	//audio_stop_all();
-	//audio_play_sound(player_dead, 10, false);
-	//image_speed = 1;
-	//sprite_index = choose(spr_phdead1, spr_phdead2, spr_phdead3);
-	//alarm_set(3, 180);
-}
+//if(hp <= 0) {
+//	script_phdead();
+//	//dead = true;	
+//	//audio_stop_all();
+//	//audio_play_sound(player_dead, 10, false);
+//	//image_speed = 1;
+//	//sprite_index = choose(spr_phdead1, spr_phdead2, spr_phdead3);
+//	//alarm_set(3, 180);
+//}
 show_debug_message(hp);
