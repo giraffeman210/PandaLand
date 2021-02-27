@@ -451,6 +451,7 @@
     {"id":{"name":"spr_kalamuiboss","path":"sprites/spr_kalamuiboss/spr_kalamuiboss.yy",},"order":20,},
     {"id":{"name":"enemy_hit","path":"sounds/enemy_hit/enemy_hit.yy",},"order":9,},
     {"id":{"name":"spr_tarobossjumpland","path":"sprites/spr_tarobossjumpland/spr_tarobossjumpland.yy",},"order":30,},
+    {"id":{"name":"script_phhit","path":"scripts/script_phhit/script_phhit.yy",},"order":4,},
     {"id":{"name":"spr_fallingrock","path":"sprites/spr_fallingrock/spr_fallingrock.yy",},"order":31,},
     {"id":{"name":"obj_blockcity","path":"objects/obj_blockcity/obj_blockcity.yy",},"order":88,},
     {"id":{"name":"path_blockfloatr","path":"paths/path_blockfloatr/path_blockfloatr.yy",},"order":1,},
