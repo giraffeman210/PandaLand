@@ -497,6 +497,7 @@
     {"id":{"name":"obj_blocktestbridge","path":"objects/obj_blocktestbridge/obj_blocktestbridge.yy",},"order":3,},
     {"id":{"name":"obj_officer","path":"objects/obj_officer/obj_officer.yy",},"order":145,},
     {"id":{"name":"obj_lockedhouse","path":"objects/obj_lockedhouse/obj_lockedhouse.yy",},"order":141,},
+    {"id":{"name":"script_phdead","path":"scripts/script_phdead/script_phdead.yy",},"order":5,},
     {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":4,},
     {"id":{"name":"obj_cherry","path":"objects/obj_cherry/obj_cherry.yy",},"order":24,},
     {"id":{"name":"obj_grape","path":"objects/obj_grape/obj_grape.yy",},"order":25,},

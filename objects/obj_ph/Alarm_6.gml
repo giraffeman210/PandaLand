@@ -8,5 +8,6 @@ if(invincible){
 	else {
 		sprite_index = currentsprite;
 	}
+	//alarm[6] = room_speed * .1;
 	alarm_set(6,6);
 }
