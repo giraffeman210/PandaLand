@@ -8,6 +8,10 @@ if (keyboard_check_pressed(vk_enter) && !attacking) {
 	if (image_xscale == -1) {
 		staff.image_xscale = -1;	
 	}
+	if (blocking) {
+		blocking = false;
+		instance_destroy(obj_phblock);
+	}
 	attacking = true;
 	audio_play_sound(attack, 10, false)
 	alarm[0] = room_speed * .2;
@@ -102,9 +106,14 @@ if (keyboard_check_pressed(220)) {
 	if (!blocking) {
 		blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
 	}
+	if (attacking) {
+		attacking = false;
+		instance_destroy(staff);
+	}
 	blockswitch = true;
 	blocking = true;
-	alarm[4] = room_speed * .5;
+	audio_play_sound(block, 10, false);
+	alarm[4] = room_speed * .25;
 }
 
 
@@ -148,31 +157,35 @@ if (y > room_height + 64) {
 }
 //animations
 if sprite_index != spr_phinvisible {
+	if blocking {
+		image_speed = 0;
+		sprite_index = spr_phblock;
+		if blockswitch {
+			blockswitch = false;
+			if image_index == 0 image_index = 1;
+			else image_index = 0;
+		}
+	}
+	else if attacking {
+		sprite_index = spr_phattack;	
+	}
 	//get the sprite from list by using key value pairs. spritetype determines which set of sprites
 	//we want to use. Grounded gets either standing or jumping sprite by index.
-	if !afk and !blocking{
-		sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
-		if(hsp == 0){
-			image_speed = 0;
-			image_index = 0;
-		}
-		else {
-			image_speed = 1;
+	else {
+		if !afk{
+			sprite_index = ds_map_find_value(spritemap, spritetype)[grounded];
+			if(hsp == 0){
+				image_speed = 0;
+				image_index = 0;
+			}
+			else {
+				image_speed = 1;
+			}
 		}
 	}
 }
-if blocking {
-	image_speed = 0;
-	sprite_index = spr_phblock;
-	if blockswitch {
-		blockswitch = false;
-		if image_index == 0 image_index = 1;
-		else image_index = 0;
-	}
-}
-if attacking {
-	sprite_index = spr_phattack;	
-}
+
+
 
 
 
@@ -228,4 +241,3 @@ if(global.spl_exp >= exp_max) {
 //	//sprite_index = choose(spr_phdead1, spr_phdead2, spr_phdead3);
 //	//alarm_set(3, 180);
 //}
-show_debug_message(hp);

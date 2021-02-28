@@ -3,7 +3,7 @@
 draw_set_font(fnt_text);
 //draw textbox
 draw_rectangle(x + 16, y + 272, x+boxWidth+2, y+boxHeight+2, false);
-draw_sprite(spr_shopscreentext, 0, x + 16, y + 272);
+draw_sprite(spr_textbox, 0, x + 16, y + 272);
 
 //draw text
 if(charCount < string_length (currentpage)) {

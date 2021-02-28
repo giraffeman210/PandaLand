@@ -562,7 +562,6 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grape","path":"objects/obj_grape/obj_grape.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":512.0,"y":608.0,"resourceVersion":"1.0","name":"inst_2E3077E0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grape","path":"objects/obj_grape/obj_grape.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":608.0,"resourceVersion":"1.0","name":"inst_48CD5948","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_grape","path":"objects/obj_grape/obj_grape.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":608.0,"resourceVersion":"1.0","name":"inst_268E6305","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_enemybasic2","path":"objects/obj_enemybasic2/obj_enemybasic2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1216.0,"y":608.0,"resourceVersion":"1.0","name":"inst_1201AB9B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1024.0,"y":768.0,"resourceVersion":"1.0","name":"inst_3A1DDC93","tags":[],"resourceType":"GMRInstance",},
@@ -2471,7 +2470,6 @@
     {"name":"inst_2E3077E0","path":"rooms/room_pandafalls/room_pandafalls.yy",},
     {"name":"inst_48CD5948","path":"rooms/room_pandafalls/room_pandafalls.yy",},
     {"name":"inst_268E6305","path":"rooms/room_pandafalls/room_pandafalls.yy",},
-    {"name":"inst_1201AB9B","path":"rooms/room_pandafalls/room_pandafalls.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

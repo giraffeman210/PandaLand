@@ -5,6 +5,7 @@ function script_phhit(){
 	{
 		hp -= 1;
 		invincible = true;
+		audio_play_sound(player_hit, 10, false);
 		if hp > 0 {
 			//invincible = true;
 			//obj_ph.alarm[6] = room_speed * .1;
