@@ -21,3 +21,4 @@ x = (obj_ph.x - (sign(image_xscale) * 64));
 //	image_xscale = 1;
 //	x = (obj_ph.x - 64);
 //}
+

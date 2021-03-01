@@ -1,7 +1,8 @@
 /// @description Insert description here
 event_inherited();
 
-myname = "Sage Ghost"
+myname = ""
 
-mytext [0] = "Alex smells like poopy butts."
-mytext [1] = "She showers with Pantene."
+mytext [0] = "Look some fruit! Each fruit you collect increasesa different stat?"
+mytext [1] = "Fill up a bar and that stat wll level up making you stronger."
+mytext [2] = "You could use a few powerups. You won't be much of a hero the way you are now."

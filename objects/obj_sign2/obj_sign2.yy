@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_shopscreen",
-    "path": "sprites/spr_shopscreen/spr_shopscreen.yy",
+    "name": "spr_sign",
+    "path": "sprites/spr_sign/spr_sign.yy",
   },
   "solid": false,
   "visible": true,
@@ -14,7 +14,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 1,
+  "physicsGroup": 0,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -24,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_shopscreen","path":"objects/obj_shopscreen/obj_shopscreen.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_sign2","path":"objects/obj_sign2/obj_sign2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_shopscreen",
+  "name": "obj_sign2",
   "tags": [],
   "resourceType": "GMObject",
 }
