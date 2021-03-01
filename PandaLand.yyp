@@ -325,7 +325,6 @@
     {"id":{"name":"spr_stageclear","path":"sprites/spr_stageclear/spr_stageclear.yy",},"order":13,},
     {"id":{"name":"spr_post","path":"sprites/spr_post/spr_post.yy",},"order":7,},
     {"id":{"name":"spr_treetop1b","path":"sprites/spr_treetop1b/spr_treetop1b.yy",},"order":21,},
-    {"id":{"name":"path_playerdead","path":"paths/path_playerdead/path_playerdead.yy",},"order":2,},
     {"id":{"name":"obj_roofyright","path":"objects/obj_roofyright/obj_roofyright.yy",},"order":93,},
     {"id":{"name":"spr_postmiddle","path":"sprites/spr_postmiddle/spr_postmiddle.yy",},"order":9,},
     {"id":{"name":"obj_malenerd","path":"objects/obj_malenerd/obj_malenerd.yy",},"order":125,},

@@ -1,5 +1,5 @@
 /// @desc Main Step Event
-if dead exit;	
+if dead or stopcontrols exit;	
 
 //Attack
 //We want to make sure panda is not attacking already
@@ -81,8 +81,14 @@ if (lastkeydown == "")
 }
 if blocking blocker.x = x + (sprite_width / 2);
 
+
+var platformtop = instance_place(x, y + 1, obj_platformfloat);
+if platformtop != noone {
+	onplatform = true;
+	extraspd += platformtop.movespd;
+}
 //Jump
-if place_meeting(x,y+1,obj_basewall) {
+if place_meeting(x,y+1,obj_basewall) or onplatform{
 	grounded = 1;
 }
 else {
@@ -120,12 +126,10 @@ if (keyboard_check_pressed(220)) {
 //Gravity pulls down player
 vsp = vsp - grv;
 
-var hspfinal = hsp + hspcarry;
-hspcarry = 0;
 
 //Horizontal Collision
-if (script_wallcollision(hspfinal)) {
-	hspfinal = 0;
+if (script_wallcollision(hsp)) {
+	hsp = 0;
 }
 
 //Vertical Collision
@@ -133,23 +137,50 @@ if (script_floorcollision(vsp))
 {
 	vsp = 0;
 }
-if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_platformfloat)) and (place_meeting(x + 1, y, obj_blocktest) or place_meeting(x - 1, y, obj_blocktest))) {
-	hp = 0;
+
+var platformsides = instance_place(x + hsp, y, obj_platformfloat);
+if platformsides != noone {
+	while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
+	{
+			x = x + sign(hsp);
+	}
+	if sign(hsp) != sign(platformsides.movespd) {
+		x += platformsides.movespd;
+		extraspd = 0;
+	}
+	hsp = 0;
 }
 
+
+if (place_meeting(x, y + vsp, obj_platformfloat)) {
+	while (!place_meeting(x,y+sign(vsp),obj_platformfloat))
+	{
+			y = y + sign(vsp);
+	}
+	vsp = 0;
+	//grounded = 1;
+	onplatform = true;
+}
+if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_platformfloat)) and 
+	(place_meeting(x + 1, y, obj_basewall) or place_meeting(x - 1, y, obj_basewall))) {
+	script_phdead();
+	exit;
+}
+
+
 if (attacking or blocking) and grounded and not onplatform{
-	hspfinal = 0;
+	hsp = 0;
 }
 if (attacking) {
-	staff.x += hspfinal;
+	staff.x += hsp;
 	staff.y += vsp;
 }
 if (blocking) {
-	blocker.x += hspfinal;
+	blocker.x += hsp;
 	blocker.y += vsp;
 }
 
-x = x + hspfinal;
+x = x + hsp + extraspd;
 y = y + vsp;
 
 if (y > room_height + 64) {
@@ -184,9 +215,6 @@ if sprite_index != spr_phinvisible {
 		}
 	}
 }
-
-
-
 
 
 
