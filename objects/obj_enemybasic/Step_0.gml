@@ -17,11 +17,11 @@ if (script_wallcollision(hsp)) {
 //	image_xscale = image_xscale * -1;
 //}
 
-
-if (aggro) {
+if (aggro) run = true;
+if (run) {
 	sprite_index = spr_enemybasicattack;
 	x = x + hsp;
 }
-else {
-	sprite_index = spr_enemybasic
-}
+//else {
+//	sprite_index = spr_enemybasic
+//}

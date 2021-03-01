@@ -156,6 +156,7 @@
     {"id":{"name":"fnt_textlg2","path":"fonts/fnt_textlg2/fnt_textlg2.yy",},"order":3,},
     {"id":{"name":"coin","path":"sounds/coin/coin.yy",},"order":7,},
     {"id":{"name":"spr_extrahit","path":"sprites/spr_extrahit/spr_extrahit.yy",},"order":10,},
+    {"id":{"name":"script_enemydead","path":"scripts/script_enemydead/script_enemydead.yy",},"order":6,},
     {"id":{"name":"obj_treehousepost","path":"objects/obj_treehousepost/obj_treehousepost.yy",},"order":66,},
     {"id":{"name":"spr_maleoldsitr","path":"sprites/spr_maleoldsitr/spr_maleoldsitr.yy",},"order":47,},
     {"id":{"name":"spr_phdead2","path":"sprites/spr_phdead2/spr_phdead2.yy",},"order":11,},
