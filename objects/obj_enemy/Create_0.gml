@@ -7,4 +7,6 @@ hitsprite = 0;
 normiesprite = 0;
 aggro = false;
 vsp = 0;
+extraspd = 0;
+hsp = 0;
 alarm_set(1,30);

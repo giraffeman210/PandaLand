@@ -85,7 +85,7 @@ if blocking blocker.x = x + (sprite_width / 2);
 var platformtop = instance_place(x, y + 1, obj_platformfloat);
 if platformtop != noone {
 	onplatform = true;
-	extraspd += platformtop.movespd;
+	if !script_wallcollision(platformtop.movespd) extraspd += platformtop.movespd;
 }
 //Jump
 if place_meeting(x,y+1,obj_basewall) or onplatform{
@@ -118,7 +118,6 @@ if (keyboard_check_pressed(220)) {
 	}
 	blockswitch = true;
 	blocking = true;
-	audio_play_sound(block, 10, false);
 	alarm[4] = room_speed * .25;
 }
 
@@ -130,12 +129,6 @@ vsp = vsp - grv;
 //Horizontal Collision
 if (script_wallcollision(hsp)) {
 	hsp = 0;
-}
-
-//Vertical Collision
-if (script_floorcollision(vsp))
-{
-	vsp = 0;
 }
 
 var platformsides = instance_place(x + hsp, y, obj_platformfloat);
@@ -150,6 +143,28 @@ if platformsides != noone {
 	}
 	hsp = 0;
 }
+if (attacking or blocking) and grounded and not onplatform{
+	hsp = 0;
+}
+x = x + hsp + extraspd;
+//Vertical Collision
+if (script_floorcollision(vsp))
+{
+	vsp = 0;
+}
+
+//var platformsides = instance_place(x + hsp, y, obj_platformfloat);
+//if platformsides != noone {
+//	while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
+//	{
+//			x = x + sign(hsp);
+//	}
+//	if sign(hsp) != sign(platformsides.movespd) {
+//		x += platformsides.movespd;
+//		extraspd = 0;
+//	}
+//	hsp = 0;
+//}
 
 
 if (place_meeting(x, y + vsp, obj_platformfloat)) {
@@ -168,9 +183,9 @@ if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_
 }
 
 
-if (attacking or blocking) and grounded and not onplatform{
-	hsp = 0;
-}
+//if (attacking or blocking) and grounded and not onplatform{
+//	hsp = 0;
+//}
 if (attacking) {
 	staff.x += hsp;
 	staff.y += vsp;
@@ -180,7 +195,7 @@ if (blocking) {
 	blocker.y += vsp;
 }
 
-x = x + hsp + extraspd;
+
 y = y + vsp;
 
 if (y > room_height + 64) {

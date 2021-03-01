@@ -2,6 +2,8 @@
 // You can write your code in this editor
 event_inherited();
 if (hit) {
+	starready = true;
+	wait = true;
 	exit;	
 }
 if not wait {

@@ -1,5 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (hp == 0){
-	script_enemydead();
-}
+event_inherited();
+alarm[4] = 3 * room_speed;

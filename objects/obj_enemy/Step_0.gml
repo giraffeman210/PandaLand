@@ -12,16 +12,46 @@ if (instance_exists(obj_ph)) {
 vsp = vsp - grv;
 
 //Vertical Collision
-if (place_meeting(x,y+vsp,obj_basewall))
+if (script_floorcollision(vsp))
 {
-	while (!place_meeting(x,y+sign(vsp),obj_basewall))
+	vsp = 0;
+}
+var platformtop = instance_place(x, y + vsp, obj_platformfloat);
+if platformtop != noone {
+	while (!place_meeting(x,y+sign(vsp),obj_platformfloat))
 	{
 			y = y + sign(vsp);
 	}
 	vsp = 0;
+	if !script_wallcollision(platformtop.movespd) extraspd += platformtop.movespd;
 }
 
-y = y + vsp;
+var platformsides = instance_place(x + hsp, y, obj_platformfloat);
+if platformsides != noone {
+	while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
+	{
+			x = x + sign(hsp);
+	}
+	if sign(hsp) != sign(platformsides.movespd) {
+		x += platformsides.movespd;
+		extraspd = 0;
+	}
+	hsp = 0;
+}
+
+if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_platformfloat)) and 
+	(place_meeting(x + 1, y, obj_basewall) or place_meeting(x - 1, y, obj_basewall))) {
+	script_enemydead();	
+}
+
+//var platformtop = instance_place(x, y + 1, obj_platformfloat);
+//if platformtop != noone {
+//	onplatform = true;
+	
+//}
+
+y += vsp;
+x += extraspd;
 if (y > room_height + 64) {
 	instance_destroy(self)
 }
