@@ -12,3 +12,4 @@ draw_set_font(fnt_text);
 sounds[0] = voice1
 sounds[1] = voice2
 sounds[2] = voice3
+sounds[3] = voice1

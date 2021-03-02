@@ -13,5 +13,8 @@ if (keyboard_check_pressed(vk_enter)) {
 		obj_ph.invincible = false;
 		instance_destroy()
 		creator.mytextbox = noone
+		if room_pandafalls {
+			obj_sage.sprite_index = spr_sageghost;
+		}
 	}
 }

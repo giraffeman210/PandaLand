@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(place_meeting(x, y, obj_sage) and place_meeting(obj_ph.x,obj_ph.y+1,obj_basewall)) {
+if(place_meeting(x, y, obj_sage) and place_meeting(obj_sage.x,obj_sage.y+1,obj_basewall)) {
 	if global.tutorial = 1 {
 		if check = 1 {
 			if (mytextbox == noone) {

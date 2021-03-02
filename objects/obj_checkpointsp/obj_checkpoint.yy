@@ -6,11 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
-  "parentObjectId": {
-    "name": "obj_parenttalk",
-    "path": "objects/obj_parenttalk/obj_parenttalk.yy",
-  },
+  "persistent": false,
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,8 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_tutorial1","path":"objects/obj_tutorial1/obj_tutorial1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_tutorial1","path":"objects/obj_tutorial1/obj_tutorial1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ph","path":"objects/obj_ph/obj_ph.yy",},"parent":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tutorial1",
+  "name": "obj_checkpoint",
   "tags": [],
   "resourceType": "GMObject",
 }

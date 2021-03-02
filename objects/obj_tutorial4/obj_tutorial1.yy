@@ -6,7 +6,7 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
     "name": "obj_parenttalk",
     "path": "objects/obj_parenttalk/obj_parenttalk.yy",
