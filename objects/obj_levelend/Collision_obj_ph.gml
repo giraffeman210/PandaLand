@@ -1,3 +1,4 @@
 /// @description Set Coordinates
 
-room_goto(room_stageclear);
+obj_ph.won = true;
+alarm_set(0, 15);

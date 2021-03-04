@@ -1,6 +1,12 @@
 /// @description 
 event_inherited();
 if hit {
+	recovering = true;
+	alarm_set(2, 30);
+	exit;
+}
+if (recovering) {
+	sprite_index = 	spr_enemybasic;
 	exit;
 }
 if (script_wallcollision(hsp)) {

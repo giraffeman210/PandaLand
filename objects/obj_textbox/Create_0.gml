@@ -7,6 +7,7 @@ boxWidth = sprite_get_width(spr_textbox);
 creator = noone;
 charCount = 0;
 name = noone;
+currentpage = "";
 maxwidth = boxWidth - (2*xbuffer)
 //draw_set_font(fnt_text);
 sounds[0] = voice1

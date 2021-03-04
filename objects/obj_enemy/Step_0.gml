@@ -64,5 +64,8 @@ if (global.levelup = true) {
 if hit {
 	sprite_index = hitsprite;
 	script_enemyhit(movepoint, hitspeed);
+	if (hp == 0){
+		script_enemydead();
+	}
 	exit;
 }

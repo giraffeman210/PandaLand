@@ -8,6 +8,7 @@ hsp = 0;
 extraspd = 0;
 hspcarry = 0;
 vsp = 0;
+won = false;
 initjumpvelocity = -14.3;
 jumpheight = 160;
 minjumpheight = 32;

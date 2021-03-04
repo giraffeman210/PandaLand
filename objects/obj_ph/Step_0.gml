@@ -1,5 +1,19 @@
 /// @desc Main Step Event
-if dead or stopcontrols exit;	
+if (dead) {
+	if (sprite_index = spr_phdead1) {
+		vsp -= grv;
+		if script_floorcollision(vsp) vsp = 0;
+		y += vsp;	
+	}
+	exit
+}
+if (won) {
+	x += 2;
+	invincible = true;
+	sprite_index = spr_ph;
+	exit
+}
+if stopcontrols exit;	
 
 //Attack
 //We want to make sure panda is not attacking already
