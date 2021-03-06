@@ -5,15 +5,18 @@ if (dead) {
 		if script_floorcollision(vsp) vsp = 0;
 		y += vsp;	
 	}
-	exit
+	exit;
 }
 if (won) {
 	x += 2;
 	invincible = true;
 	sprite_index = spr_ph;
-	exit
+	exit;
 }
-if stopcontrols exit;	
+if (stopcontrols) {
+	script_phstopcontrols();
+	exit;
+}
 
 
 //block
@@ -131,7 +134,6 @@ if (lastkeydown == "right")
 	
 	hsp = walksp;
 }
-show_debug_message(lastkeydown);
 if (lastkeydown == "")
 {
 	hsp = 0;
