@@ -1,12 +1,12 @@
 /// @description Insert description here
 
 draw_set_font(fnt_text);
-draw_set_colour(c_white);
+draw_set_colour(c_black);
 draw_set_halign(fa_left);
 //draw textbox
 //draw_rectangle(x + 16, y + 272, x+boxWidth+2, y+boxHeight+2, false);
 draw_sprite(spr_textbox, 0, x + 16, y);
-draw_sprite(spr_textboxboarder, 0, x + 10, y - 6);
+draw_sprite(spr_textboxboarder1, 0, x + 10, y - 6);
 
 if (currentpage == "") {
 	event_user(0);	

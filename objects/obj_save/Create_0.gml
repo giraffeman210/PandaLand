@@ -16,6 +16,7 @@ if score = 1 {
 	global.tutorial = 0
 } else {
 	global.tutorial = 1
+	global.tutorialnum = 0;
 }
 lives = 3;
 var i = 0;
