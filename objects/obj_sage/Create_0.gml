@@ -3,8 +3,8 @@ event_inherited();
 
 myname = ""
 
-tutorial1[0] = "We don't have much time to turn you into a hero so listen well to my instructions!"
-tutorial1[1] = "Press 'spacebar' to jump and the 'A' and 'D' keys to get moving!"
+tutorial1[0] = "We don't have much time to turn you into a hero, so listen well to my instructions!"
+tutorial1[1] = "Press 'Spacebar' to jump and the 'A' and 'D' keys to get moving!"
 tutorial1[2] = "You're our only hope!           (Oh dear...)" 
 
 tutorial2 [0] = "Look some fruit! Each fruit you collect will increase a different stat!"
@@ -18,12 +18,12 @@ tutorial4 [0] = "Oh dear, an enemy monster!"
 tutorial4 [1] = "Don't just stand there! Attack with 'Enter'!" 
 
 tutorial5 [0] = "Be careful! Those enemies throw projectiles!"
-tutorial5 [1] = "Repeatedly press '\' to hide behind that oversized stick of yours!" 
+tutorial5 [1] = "Repeatedly press '\\' to hide behind that oversized stick of yours!" 
 
 tutorial6[0]= "You might not be so useless after all!"
 tutorial6[1] = "Let's go find those golden fruits!"
 
-xcheck = [64, 1088, 2144, 2720, 3296, 12128];
+xcheck = [64, 1088, 2144, 2784, 3296, 12128];
 mytext = ds_list_create();
 ds_list_add(mytext, tutorial1);
 ds_list_add(mytext, tutorial2);
