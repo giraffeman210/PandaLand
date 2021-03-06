@@ -15,9 +15,9 @@ if(place_meeting(x, y, obj_sage) and place_meeting(obj_ph.x,obj_ph.y+1,obj_basew
 				mytextbox.creator = self;
 				mytextbox.name = myname;
 				check = 0;
-				with(mytextbox) {
-					event_user(0);	
-				}
+				//with(mytextbox) {
+				//	event_user(0);	
+				//}
 			}
 		}
 	}
