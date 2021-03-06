@@ -199,6 +199,7 @@
     {"id":{"name":"spr_phinvisible","path":"sprites/spr_phinvisible/spr_phinvisible.yy",},"order":33,},
     {"id":{"name":"spr_cavespikeup1","path":"sprites/spr_cavespikeup1/spr_cavespikeup1.yy",},"order":8,},
     {"id":{"name":"spr_pfblockforestb","path":"sprites/spr_pfblockforestb/spr_pfblockforestb.yy",},"order":18,},
+    {"id":{"name":"script_phstopcontrols","path":"scripts/script_phstopcontrols/script_phstopcontrols.yy",},"order":8,},
     {"id":{"name":"block","path":"sounds/block/block.yy",},"order":6,},
     {"id":{"name":"spr_femalep","path":"sprites/spr_femalep/spr_femalep.yy",},"order":60,},
     {"id":{"name":"spr_tree1","path":"sprites/spr_tree1/spr_tree1.yy",},"order":5,},

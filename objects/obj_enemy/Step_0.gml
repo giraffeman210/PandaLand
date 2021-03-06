@@ -26,16 +26,39 @@ if platformtop != noone {
 	if !script_wallcollision(platformtop.movespd) extraspd += platformtop.movespd;
 }
 
-var platformsides = instance_place(x + hsp, y, obj_platformfloat);
-if platformsides != noone {
-	while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
-	{
-			x = x + sign(hsp);
+if (hsp > 0) {
+	var platformsides = instance_place(x + hsp, y, obj_platformfloat);
+	if platformsides != noone {
+		while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
+		{
+				x = x + sign(hsp);
+		}
+		if sign(hsp) != sign(platformsides.movespd) {
+			x += platformsides.movespd;
+			extraspd = 0;
+		}
+		hsp = 0;
 	}
-	if sign(hsp) != sign(platformsides.movespd) {
-		x += platformsides.movespd;
-		extraspd = 0;
+}
+else {
+	var platformsideright = instance_place(x + 4, y, obj_platformfloat);
+	var platformsideleft = instance_place(x - 4, y, obj_platformfloat);
+	if platformsideright != noone {
+		while (!place_meeting(x + 1, y, obj_platformfloat))
+		{
+			x = x + 1;
+		}
+		x += platformsideright.movespd;
 	}
+	if platformsideleft != noone {
+		while (!place_meeting(x - 1, y, obj_platformfloat))
+		{
+			x = x - 1;
+		}
+		x += platformsideleft.movespd;
+	}
+	
+	extraspd = 0;
 	hsp = 0;
 }
 
@@ -62,10 +85,10 @@ if (global.levelup = true) {
 	}
 }
 if hit {
-	sprite_index = hitsprite;
-	script_enemyhit(movepoint, hitspeed);
 	if (hp == 0){
 		script_enemydead();
 	}
+	sprite_index = hitsprite;
+	if (not wallhit) wallhit = script_enemyhit(movepoint, hitspeed);
 	exit;
 }

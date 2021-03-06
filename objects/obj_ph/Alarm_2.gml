@@ -1,4 +1,5 @@
 /// @description not moving animations
+if (stopcontrols) exit;
 afk = true;
 sprite_index = choose(spr_phconfused, spr_sleeping, spr_phangry, spr_phhungry);
 image_speed = 1;
