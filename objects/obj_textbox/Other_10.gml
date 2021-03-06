@@ -5,4 +5,4 @@
 currentpage = script_wrap(text[page], maxwidth);
 //show_debug_message(currentpage);
 //nameHeight = string_height(name);
-audio_play_sound(sounds[page], 10, false);
+//audio_play_sound(sounds[page], 10, false);

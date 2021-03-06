@@ -5,10 +5,10 @@ myname = ""
 
 tutorial1[0] = "We don't have much time to turn you into a hero so listen well to my instructions!"
 tutorial1[1] = "Press 'spacebar' to jump and the 'A' and 'D' keys to get moving!"
-tutorial1[2] = "You're our only hope! (Oh dear...)" 
+tutorial1[2] = "You're our only hope!           (Oh dear...)" 
 
-tutorial2 [0] = "Look some fruit! Each fruit you collect increases a different stat!"
-tutorial2 [1] = "Fill up a bar and that stat wll level up, making you stronger."
+tutorial2 [0] = "Look some fruit! Each fruit you collect will increase a different stat!"
+tutorial2 [1] = "Fill up a bar and that stat will level up, making you stronger."
 tutorial2 [2] = "You could use a few powerups! You won't be much of a hero the way you are now."
 
 tutorial3 [0] = "You know how to read don't you?"

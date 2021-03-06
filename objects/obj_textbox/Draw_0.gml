@@ -6,7 +6,9 @@ draw_set_halign(fa_left);
 //draw textbox
 //draw_rectangle(x + 16, y + 272, x+boxWidth+2, y+boxHeight+2, false);
 draw_sprite(spr_textbox, 0, x + 16, y);
-draw_sprite(spr_textboxboarder1, 0, x + 10, y - 6);
+//draw_sprite(spr_textboxboarder1, 0, x + 10, y - 6);
+//draw_sprite(spr_textboxboarder2, 0, x - 30, y - 38);
+draw_sprite(spr_textboxboarder3, 0, x - 10, y - 22);
 
 if (currentpage == "") {
 	event_user(0);	
