@@ -9,4 +9,5 @@ aggro = false;
 vsp = 0;
 extraspd = 0;
 hsp = 0;
+wallhit = false;
 alarm_set(1,30);
