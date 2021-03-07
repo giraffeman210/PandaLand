@@ -23,7 +23,7 @@ tutorial5 [1] = "Repeatedly press '\\' to hide behind that oversized stick of yo
 tutorial6[0]= "You might not be so useless after all!"
 tutorial6[1] = "Let's go find those golden fruits!"
 
-xcheck = [64, 1088, 2144, 2784, 3296, 12128];
+xcheck = [64, 1088, 2144, 2752, 3296, 12128];
 mytext = ds_list_create();
 ds_list_add(mytext, tutorial1);
 ds_list_add(mytext, tutorial2);
