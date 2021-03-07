@@ -20,53 +20,53 @@ if (stopcontrols) {
 
 
 //block
-if (keyboard_check(ord("S"))) {
-	if (keyboard_check_pressed(vk_enter)) {
-		if (!blocking) {
-			blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
-			blocker.image_xscale = image_xscale;
-		}
-		if (attacking) {
-			attacking = false;
-			instance_destroy(staff);
-		}
-		blockswitch = true;
-		blocking = true;
-		alarm[4] = room_speed * .25;
-	}
-}
-//Attack
-else if (keyboard_check_pressed(vk_enter)) {
-	//We want to make sure panda is not attacking already
-	if (!attacking) {
-		staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
-		if (image_xscale == -1) {
-			staff.image_xscale = -1;	
-		}
-		if (blocking) {
-			blocking = false;
-			instance_destroy(obj_phblock);
-		}
-		attacking = true;
-		audio_play_sound(attack, 10, false)
-		alarm[0] = room_speed * .2;
-	}
-}
+//if (keyboard_check(ord("S"))) {
+//	if (keyboard_check_pressed(vk_enter)) {
+//		if (!blocking) {
+//			blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
+//			blocker.image_xscale = image_xscale;
+//		}
+//		if (attacking) {
+//			attacking = false;
+//			instance_destroy(staff);
+//		}
+//		blockswitch = true;
+//		blocking = true;
+//		alarm[4] = room_speed * .25;
+//	}
+//}
+////Attack
+//else if (keyboard_check_pressed(vk_enter)) {
+//	//We want to make sure panda is not attacking already
+//	if (!attacking) {
+//		staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
+//		if (image_xscale == -1) {
+//			staff.image_xscale = -1;	
+//		}
+//		if (blocking) {
+//			blocking = false;
+//			instance_destroy(obj_phblock);
+//		}
+//		attacking = true;
+//		audio_play_sound(attack, 10, false)
+//		alarm[0] = room_speed * .2;
+//	}
+//}
 //Attack
 //We want to make sure panda is not attacking already
-//if (keyboard_check_pressed(vk_enter) && !attacking) {	
-//	staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
-//	if (image_xscale == -1) {
-//		staff.image_xscale = -1;	
-//	}
-//	if (blocking) {
-//		blocking = false;
-//		instance_destroy(obj_phblock);
-//	}
-//	attacking = true;
-//	audio_play_sound(attack, 10, false)
-//	alarm[0] = room_speed * .2;
-//}
+if (keyboard_check_pressed(vk_enter) && !attacking) {	
+	staff = instance_create_layer(x+(64 * sign(image_xscale)), y, "layer_player", obj_staff);
+	if (image_xscale == -1) {
+		staff.image_xscale = -1;	
+	}
+	if (blocking) {
+		blocking = false;
+		instance_destroy(obj_phblock);
+	}
+	attacking = true;
+	audio_play_sound(attack, 10, false)
+	alarm[0] = room_speed * .2;
+}
 
 // left & right movement
 // keep track of the last key pushed and if both keys are pressed move in direction of last key
@@ -168,20 +168,20 @@ if (keyboard_check_released(vk_space))
 	}
 }
 
-////block
-//if (keyboard_check_pressed(220)) {
-//	if (!blocking) {
-//		blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
-//		blocker.image_xscale = image_x;
-//	}
-//	if (attacking) {
-//		attacking = false;
-//		instance_destroy(staff);
-//	}
-//	blockswitch = true;
-//	blocking = true;
-//	alarm[4] = room_speed * .25;
-//}
+//block
+if (keyboard_check_pressed(220)) {
+		if (!blocking) {
+			blocker = instance_create_layer(x + (sprite_width / 2), y, "layer_player", obj_phblock);
+			blocker.image_xscale = image_xscale;
+		}
+		if (attacking) {
+			attacking = false;
+			instance_destroy(staff);
+		}
+		blockswitch = true;
+		blocking = true;
+		alarm[4] = room_speed * .25;
+}
 
 
 //Gravity pulls down player
