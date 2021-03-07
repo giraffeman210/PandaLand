@@ -3,7 +3,7 @@ event_inherited();
 
 myname = ""
 
-tutorial1[0] = "We don't have much time to turn you into a hero, so listen well to my instructions!"
+tutorial1[0] = "We don't have much time to turn you into a hero so listen well to my instructions!"
 tutorial1[1] = "Press 'Spacebar' to jump and the 'A' and 'D' keys to get moving!"
 tutorial1[2] = "You're our only hope!           (Oh dear...)" 
 
