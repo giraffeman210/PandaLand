@@ -26,7 +26,8 @@ if platformtop != noone {
 	if !script_wallcollision(platformtop.movespd) extraspd += platformtop.movespd;
 }
 
-if (hsp > 0) {
+//platform checks!
+if (hsp != 0) {
 	var platformsides = instance_place(x + hsp, y, obj_platformfloat);
 	if platformsides != noone {
 		while (!place_meeting(x+sign(hsp),y,obj_platformfloat))
@@ -49,6 +50,8 @@ else {
 			x = x + 1;
 		}
 		x += platformsideright.movespd;
+		extraspd = 0;
+		hsp = 0;
 	}
 	if platformsideleft != noone {
 		while (!place_meeting(x - 1, y, obj_platformfloat))
@@ -56,10 +59,9 @@ else {
 			x = x - 1;
 		}
 		x += platformsideleft.movespd;
+		extraspd = 0;
+		hsp = 0;
 	}
-	
-	extraspd = 0;
-	hsp = 0;
 }
 
 if ((place_meeting(x + 1 , y, obj_platformfloat) or place_meeting(x - 1, y, obj_platformfloat)) and 
