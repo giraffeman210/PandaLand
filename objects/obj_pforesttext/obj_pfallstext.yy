@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ph",
-    "path": "sprites/spr_ph/spr_ph.yy",
+    "name": "spr_pandafalls",
+    "path": "sprites/spr_pandafalls/spr_pandafalls.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,10 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":68,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_sspanda","path":"objects/obj_sspanda/obj_sspanda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":65,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_sspanda","path":"objects/obj_sspanda/obj_sspanda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sspanda",
+  "name": "obj_pfallstext",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_ph",
-    "path": "sprites/spr_ph/spr_ph.yy",
+    "name": "spr_pandaforest",
+    "path": "sprites/spr_pandaforest/spr_pandaforest.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":68,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_sspanda","path":"objects/obj_sspanda/obj_sspanda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":65,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_sspanda","path":"objects/obj_sspanda/obj_sspanda.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_pandaforest","path":"objects/obj_pandaforest/obj_pandaforest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_pandaforest","path":"objects/obj_pandaforest/obj_pandaforest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sspanda",
+  "name": "obj_pandaforest",
   "tags": [],
   "resourceType": "GMObject",
 }
