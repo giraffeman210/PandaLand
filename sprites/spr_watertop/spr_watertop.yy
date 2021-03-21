@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_watertop","path":"sprites/spr_watertop/spr_watertop.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_watertop",
     "tags": [],
     "resourceType": "GMSequence",
   },

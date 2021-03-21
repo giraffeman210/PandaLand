@@ -72,7 +72,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_waterfall","path":"sprites/spr_waterfall/spr_waterfall.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_waterfall",
     "tags": [],
     "resourceType": "GMSequence",
   },
