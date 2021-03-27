@@ -1,3 +1,7 @@
 /// @description start game
-
-room_goto(room_pandafalls);
+if global.stage = 1 {
+room_goto(room_stagestart);
+}
+if global.stage >= 2 {
+	room_goto(room_stageselect)
+}

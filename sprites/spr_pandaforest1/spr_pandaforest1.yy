@@ -7,8 +7,8 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 224,
-  "bbox_right": 587,
+  "bbox_left": 208,
+  "bbox_right": 571,
   "bbox_top": 96,
   "bbox_bottom": 127,
   "HTile": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 2,
-  "gridY": 2,
+  "gridX": 16,
+  "gridY": 16,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2caf010d-f139-4f95-bee0-6ec1eab3d178","path":"sprites/spr_pandaforest1/spr_pandaforest1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"2caf010d-f139-4f95-bee0-6ec1eab3d178","path":"sprites/spr_pandaforest1/spr_pandaforest1.yy",},"LayerId":{"name":"dc5e9fa0-bdf9-49db-9498-0fbebc90cbc1","path":"sprites/spr_pandaforest1/spr_pandaforest1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

@@ -12,7 +12,12 @@ global.spl_lv = 0;
 global.spawnpointx = 96;
 global.spawnpointy = 480;
 global.levelup = false;
-global.pandaforest = 2;
+global.pandaforest = 4;
+global.pandacaves = 1;
+global.pandaseaside = 1;
+global.pandacity = 1;
+global.stage = 2;
+global.stageselect = 1;
 if score = 1 {
 	global.tutorial = 0
 } else {
