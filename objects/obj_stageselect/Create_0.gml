@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if global.stage = 2 {
+if global.stage = 3 {
 	sprite_index = spr_pandaforest;
 	instance_create_layer(x + 56, y + 88, "stage", obj_stage);
 	if global.pandaforest >= 2 {
@@ -13,7 +13,7 @@ if global.stage = 2 {
 	}
 }
 }
-if global.stage = 3 {
+if global.stage = 1 {
 	sprite_index = spr_pandacaves;
 	instance_create_layer(x + 56, y + 88, "stage", obj_stage);
 	if global.pandacaves >= 2 {
@@ -26,7 +26,7 @@ if global.stage = 3 {
 	}
 }
 }
-if global.stage = 4 {
+if global.stage = 5 {
 	sprite_index = spr_pandaseaside;
 	instance_create_layer(x + 56, y + 88, "stage", obj_stage);
 	if global.pandaseaside >= 2 {
@@ -39,7 +39,7 @@ if global.stage = 4 {
 	}
 }
 }
-if global.stage = 5 {
+if global.stage = 4 {
 	room_goto(room_pandacity);
 }
 instance_create_layer(x + 73, y + 104, "cursor", obj_sspanda);
