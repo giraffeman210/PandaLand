@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"spr_bridge","path":"sprites/spr_bridge/spr_bridge.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_bridge",
     "tags": [],
     "resourceType": "GMSequence",
   },

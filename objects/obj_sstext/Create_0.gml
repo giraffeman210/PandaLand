@@ -6,6 +6,9 @@ if global.stage = 3 {
 if global.stage = 1 {
 	sprite_index = spr_pandacaves1;
 }
+if global.stage = 2 {
+	sprite_index = spr_pandafalls;
+}
 if global.stage = 5 {
 	sprite_index = spr_pandaseaside1;
 }

@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 8,
-  "gridY": 8,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7f713a60-d15a-44e4-808c-1c8b3d412beb","path":"sprites/spr_pandaseaside/spr_pandaseaside.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7f713a60-d15a-44e4-808c-1c8b3d412beb","path":"sprites/spr_pandaseaside/spr_pandaseaside.yy",},"LayerId":{"name":"8e7f8100-ddcd-4711-bb09-a94d879d36a3","path":"sprites/spr_pandaseaside/spr_pandaseaside.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -80,8 +80,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8e7f8100-ddcd-4711-bb09-a94d879d36a3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Interface",
+    "path": "folders/Sprites/Interface.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_pandaseaside",
