@@ -45,7 +45,7 @@ draw_sprite_stretched(spr_statbargreen,0, healthbar_x, (healthbar_y + 98), min((
 draw_sprite(spr_statbar,0, healthbar_x, (healthbar_y + 96));
 
 draw_sprite(spr_itembox, 0, 736, 16);
-draw_sprite(spr_wpbasic, 0, 736, 16);
+draw_sprite(spr_weapon, 0, 736, 16);
 draw_sprite(spr_pandahead, 0, 896, 16);
 
 if(global.def_lv >= 1) {
