@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 2,
-  "gridY": 2,
+  "gridX": 64,
+  "gridY": 64,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7247ea8c-f9e8-4721-becb-491937b68e53","path":"sprites/spr_taroboss/spr_taroboss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"7247ea8c-f9e8-4721-becb-491937b68e53","path":"sprites/spr_taroboss/spr_taroboss.yy",},"LayerId":{"name":"b7f806f2-6dc1-4ecb-94b7-ab918a2ae0a8","path":"sprites/spr_taroboss/spr_taroboss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -67,9 +67,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b7f806f2-6dc1-4ecb-94b7-ab918a2ae0a8","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Taro",
+    "path": "folders/Sprites/Bosses/Taro.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_taroboss",
