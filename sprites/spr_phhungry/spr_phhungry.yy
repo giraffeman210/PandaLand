@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 1,
-  "gridY": 1,
+  "gridX": 2,
+  "gridY": 2,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f0ac5811-1301-42f0-ae5f-577b576e8502","path":"sprites/spr_phhungry/spr_phhungry.yy",},"LayerId":null,"resourceVersion":"1.0","name":"composite","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"f0ac5811-1301-42f0-ae5f-577b576e8502","path":"sprites/spr_phhungry/spr_phhungry.yy",},"LayerId":{"name":"d0bc8168-f0f7-47f4-aaf0-48b02a7b4671","path":"sprites/spr_phhungry/spr_phhungry.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -71,6 +71,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0bc8168-f0f7-47f4-aaf0-48b02a7b4671","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Panda",
     "path": "folders/Sprites/Panda.yy",

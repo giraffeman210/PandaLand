@@ -60,13 +60,14 @@
     "eventStubScript": null,
     "parent": {"name":"spr_treetop","path":"sprites/spr_treetop/spr_treetop.yy",},
     "resourceVersion": "1.3",
-    "name": "",
+    "name": "spr_treetop",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"89e98bf9-9d8a-496e-b299-fc0eed7290c1","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Panda Forest",
     "path": "folders/Sprites/Panda Forest.yy",
