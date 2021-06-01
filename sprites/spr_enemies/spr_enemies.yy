@@ -67,6 +67,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"860232a4-c6c9-4a77-8d52-334ee191d831","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Fancy Sprites",
     "path": "folders/Sprites/Fancy Sprites.yy",
