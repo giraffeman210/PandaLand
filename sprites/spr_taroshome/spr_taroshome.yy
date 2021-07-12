@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 2,
-  "gridY": 2,
+  "gridX": 64,
+  "gridY": 64,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ef6ea1e8-d83d-474f-bcd4-4c06555538d6","path":"sprites/spr_taroshome/spr_taroshome.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ef6ea1e8-d83d-474f-bcd4-4c06555538d6","path":"sprites/spr_taroshome/spr_taroshome.yy",},"LayerId":{"name":"288c4bfd-a40a-4cb6-88c4-eab820b5b992","path":"sprites/spr_taroshome/spr_taroshome.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
