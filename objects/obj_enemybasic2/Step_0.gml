@@ -8,13 +8,22 @@ if (hit) {
 }
 if not wait {
 	if (aggro and starready) {
+		firstdir = point_direction(x, y, obj_ph.x, obj_ph.y);
+		if (not(firstdir > 240 and firstdir < 300)) {
 			sprite_index = spr_enemybasic2throw;
 			image_index = 0;
 			starready = false;
+		}
 	}
 	if (not starready and image_index >= 1 and not starthrown) {
+		var dir = point_direction(x, y, obj_ph.x, obj_ph.y);
 		ninjastar = instance_create_layer(x - (sign(image_xscale) * 40), y, "Instances", obj_ninjastar);
-		ninjastar.direction = point_direction(x, y, obj_ph.x, obj_ph.y);
+		if (not(dir > 240 and dir < 300)) {
+			ninjastar.direction = dir;
+		}
+		else {
+			ninjastar.direction = firstdir;
+		}
 		ninjastar.speed = 6;
 		starthrown = true;
 		alarm[4] = 3 * room_speed;
