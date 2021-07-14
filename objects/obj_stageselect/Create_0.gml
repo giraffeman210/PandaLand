@@ -39,6 +39,19 @@ if global.stage = 5 {
 	}
 }
 }
+if global.stage = 6 {
+	sprite_index = spr_demomap;
+	instance_create_layer(x + 56, y + 88, "stage", obj_stage);
+	if global.demo >= 2 {
+		instance_create_layer(x + 184, y + 88, "stage", obj_stage);
+		if global.demo >= 3 {
+		instance_create_layer(x + 312, y + 88, "stage", obj_stage);
+		if global.demo >= 4 {
+			instance_create_layer(x + 440, y + 88, "stage", obj_stage);
+		}
+	}
+}
+}
 if global.stage = 4 {
 	room_goto(room_pandacity);
 }

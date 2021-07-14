@@ -815,6 +815,7 @@
     {"id":{"name":"spr_shopscreen","path":"sprites/spr_shopscreen/spr_shopscreen.yy",},"order":126,},
     {"id":{"name":"obj_randomfruit","path":"objects/obj_randomfruit/obj_randomfruit.yy",},"order":47,},
     {"id":{"name":"spr_tarobosshit","path":"sprites/spr_tarobosshit/spr_tarobosshit.yy",},"order":6,},
+    {"id":{"name":"spr_demotext","path":"sprites/spr_demotext/spr_demotext.yy",},"order":35,},
     {"id":{"name":"spr_buildinginside","path":"sprites/spr_buildinginside/spr_buildinginside.yy",},"order":128,},
     {"id":{"name":"spr_buildingdoor","path":"sprites/spr_buildingdoor/spr_buildingdoor.yy",},"order":8,},
     {"id":{"name":"spr_tarobossjumplandhit","path":"sprites/spr_tarobossjumplandhit/spr_tarobossjumplandhit.yy",},"order":11,},
@@ -890,7 +891,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.570",
   },
   "resourceVersion": "1.4",
   "name": "PandaLand",

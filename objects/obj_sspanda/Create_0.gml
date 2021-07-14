@@ -13,4 +13,7 @@ if room = room_stageselect {
 	if global.stage = 5 {
 		unlock = global.pandaseaside;
 	}
+	if global.stage = 6 {
+		unlock = global.demo;
+	}
 }

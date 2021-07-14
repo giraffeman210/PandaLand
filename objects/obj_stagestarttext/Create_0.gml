@@ -19,3 +19,7 @@ if global.stage = 4 {
 	sprite_index = spr_pandacity1;
 	image_index = (global.stageselect - 1);
 }
+if global.stage = 6 {
+	sprite_index = spr_demotext;
+	image_index = (global.stageselect - 1);
+}
