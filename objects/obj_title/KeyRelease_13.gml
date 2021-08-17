@@ -1,4 +1,5 @@
 /// @description start game
+//test edit
 //if global.stage = 0 {
 //room_goto(room_stagestart);
 //}
